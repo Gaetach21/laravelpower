@@ -1,0 +1,260 @@
+body
+{
+font-family: 'Trebuchet MS', Arial, sans-serif;
+color: #181818;
+} 
+#bloc_page
+{
+width: 900px;
+margin: auto;
+} 
+
+#logo
+{
+float: left;
+width: 150px;
+} 
+
+header h1
+{
+padding-top: 30px;
+margin-left: 140px;
+font-family: Verdana, serif;
+font-size: 2em;
+text-transform: uppercase;
+}
+
+
+header h2
+{
+padding-top: 10px;
+margin-left: 140px;
+font-family: Arial, serif;
+font-size: 1.4em;
+margin-top: 0px;
+line-height: 5%;
+text-transform: uppercase;
+}
+
+
+nav
+{
+display: inline-block;
+width: 900px;
+margin-bottom: 5px;
+} 
+nav ul
+{
+list-style-type: none;
+} 
+nav li
+{
+display: inline-block;
+margin: 2px 25px;
+} 
+nav a
+{
+font-size: normal;
+padding-bottom: 3px;
+text-decoration: none;
+font-family: helvetica, serif;
+text-transform: uppercase;
+} 
+nav li a:hover
+{
+border-bottom: 1px solid white;
+}
+
+
+#main_content
+{
+float: left;
+width: 625px;
+margin-right: 15px;
+margin-bottom: 10px;
+}
+
+#sidebar
+{
+   padding: 10px 10px;
+}
+
+#main_content, #sidebar
+{
+   height: 850px;
+}
+
+article
+{
+float: left;
+width: 625px;
+margin-right: 15px;
+margin-bottom: 10px;
+} 
+ 
+article p
+{
+font-family: Verdana, Arial, serif;
+font-size: 0.8em;
+line-height: 1.7em;
+margin-top: 0.3em;
+margin-bottom: 0.9em;
+padding: 5px 10px;
+} 
+
+article ul
+{
+font-family: Verdana, Arial, serif;
+font-size: 0.8em;
+margin-top: 0.3em;
+margin-bottom: 0.9em;
+} 
+
+
+article h1
+{
+margin: 0px;
+padding: 20px 0px;
+font-family: Verdana, Arial, serif;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+
+text-transform: none;
+} 
+
+aside
+{
+margin-left: 640px;
+width: 235px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 10px;
+color: black;
+margin-bottom: 15px;
+border: 1px solid dodgerblue;
+} 
+ 
+
+ aside h1
+{
+color: rgb(255, 255, 255);
+padding: 5px 10px;
+font-family: Verdana, Arial, serif;
+font-size: 18px;
+margin: 0px;
+font-weight: normal;
+border-radius: 10px 10px 0px 0px;
+text-transform: none;
+display: block;
+width: 235px;
+position: relative;
+right: 10px;
+bottom: 10px;
+text-align: center;
+}
+ 
+ 
+ aside p
+{
+font-family: Verdana, Arial, serif;
+font-size: 0.8em;
+color: rgb(124, 123, 123);
+}
+
+aside #actual
+{
+display: block;
+font-family: arial;
+color: rgb(90, 90, 90);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.4em;
+text-decoration: none;
+padding: 5px;
+}
+
+aside a
+{
+float: left;
+padding: 2px 10px;
+color: rgb(0, 160, 238);
+text-decoration: underline;
+font-size: 12px;
+font-weight: normal !;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+
+
+
+#photo_gaetan
+{
+text-align: center;
+} 
+
+#photo_gaetan img
+{
+border: 1px solid #181818;
+} 
+aside img
+{
+margin-right: 5px;
+}
+
+
+
+footer {
+clear: both;
+background-color: rgb(241, 241, 241);
+border-width: 1px 1px 0px;
+border-top-style: solid;
+border-right-style: solid;
+border-left-style: solid;
+border-top-color: rgb(136, 136, 136);
+border-right-color: rgb(136, 136, 136);
+border-left-color: rgb(136, 136, 136);
+-o-border-image: initial;
+   border-image: initial;
+border-bottom-style: initial;
+border-bottom-color: initial;
+margin-bottom: 0px;
+}
+
+footer .col 
+{
+float: left;
+position: relative;
+width: 32%;
+margin-top: 8px;
+margin-bottom: 10px;
+padding-left: 1.322%;
+line-height: 1.3em;
+}
+
+footer strong 
+{
+color: rgb(85, 85, 85);
+}
+
+footer ul 
+{
+list-style-type: none;
+margin: 3px 0px;
+padding: 0px;
+}
+
+footer a 
+{
+text-decoration: none;
+color: rgb(119, 119, 119);
+}
+
+footer .bottom {
+clear: left;
+padding: 2px;
+font-size: 0.75em;
+border-top: 1px solid rgb(153, 153, 153);
+background-color: rgb(170, 170, 170);
+color: rgb(255, 255, 255);
+}
