@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class PostController extends Controller
 {
@@ -15,5 +16,28 @@ class PostController extends Controller
     {
     	return view('pages/hebergement');
     }
+
+    public function createContact()
+    {
+    	return view('pages/contact');
+    }
+
+    public function storeContact(Request $request)
+{ 
+$request->validate([
+		'name' =>'required|min:4|max:10|unique:contacts',
+		'email' =>'required|email',
+		'message' =>'required|max:250'
+		]);
+		Contact::create([
+		'name' => $request -> name,
+		'email' =>$request -> email,
+		'message' => $request -> message
+		]);
+		return 'Merci <strong>'.$request->input('name').'</strong>.'.'Votre message a été transmis à l\'administrateur du site.
+		Vous recevrez une réponse rapidement';	
+
+}
+
 
 }

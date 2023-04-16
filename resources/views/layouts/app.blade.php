@@ -7,9 +7,9 @@
         <link href="{{ asset('css/bootstrap.css') }}" rel ="stylesheet" type="text/css" media="all">
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     </head>
-    <body>
+    <body style="background: url('images/fond_jaune.png');">
         
-        <div id="bloc_page">   
+        <div id="bloc_page" style="background: url('images/fond_blanc.png'); width: 920px;">   
 
   <!-- entête -->  
  @include('partials.header')

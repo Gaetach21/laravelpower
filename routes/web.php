@@ -18,6 +18,8 @@ use App\Http\Controllers\PostController;
 
 Route::get('', [PostController::class, 'index'])->name('welcome');
 Route::get('/Hébergement web', [PostController::class, 'pageContent1'])->name('hebergement');
+Route::get('/Contact', [PostController::class, 'createContact'])->name('contact.create');
+Route::post('/Contact', [PostController::class, 'storeContact'])->name('contact.store');
 /*Route::get('/', function () {
     return view('welcome');
 });*/
