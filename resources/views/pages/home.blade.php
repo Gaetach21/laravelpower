@@ -1,8 +1,9 @@
 @extends('layouts.app')
+@section('title','Laravelpower | Toute la puissance de Laravel')
 @section('content')
 <h1>Laravelpower - Toute la puissance de Laravel</h1>
    <p>
-  <center><img src="images/laravel_logo.png" alt="le logo de Laravel" /></center>
+  <center><img src="{{ asset('images/laravel_logo.png') }}" alt="le logo de Laravel"/></center>
   </p>
   <p>Que vous soyez simple débutant, curieux ou passionnés d'informatique,
   DevazTutorials vous permet d'apprendre et de développer des compétences en

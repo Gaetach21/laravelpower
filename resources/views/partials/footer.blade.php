@@ -11,10 +11,10 @@
       </div>
       
        <div class="col">
-      <strong>Partenaires</strong> 
+      <strong>A propos du web</strong> 
        <ul>
-       <li><a href="#">Hébergement web</a></li>
-        <li><a href="#">Upload de fichiers</a></li> 
+       <li><a href="{{ route('hebergement') }}">Hébergement web</a></li>
+        <li><a href="#">Nom de domaine</a></li>
       </ul>
       </div>
       
