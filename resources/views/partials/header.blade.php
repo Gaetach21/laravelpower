@@ -1,8 +1,19 @@
 <header>
   <div class="container">
         <div id="navbar1" class="text-primary">
-        <a href="#">Connexion</a>
-        | <a href="#">Inscription</a>
+        @if (Route::has('login'))
+                    @auth
+                        <a href="{{ url('/dashboard') }}">Tableau de bord</a>
+                        
+                    @else
+                         <a href="{{ route('login') }}">Connexion</a>
+
+                        @if (Route::has('register'))
+                            | <a href="{{ route('register') }}">Inscription</a>
+                        @endif
+                    @endauth
+            @endif
+
         | <a href="#">Blog</a>
         | <a href="#">Langues</a>
         </div>

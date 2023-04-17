@@ -1,17 +1,47 @@
-<x-app-layout>
+@extends('layouts.app')
+@section('content')
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('Tableau de bord') }}
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
-                    You're logged in!
-                </div>
-            </div>
+<div class="container">
+  <style type="text/css">
+    table, th, td, tbody {border: 2px solid black; 
+      padding: 5px;
+      border-collapse: collapse;}
+  </style>
+        <div class="row" style="margin-top: 45px;">
+          <div class="col-md-6">
+            <h4>Tableau de bord</h4><br>
+            <table class="table table-hover">
+              <thead>
+                <th>Nom</th>
+                <th>Email</th>
+                <th></th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{ Auth::user()->name }}</td>
+                  <td>{{ Auth::user()->email }}</td>
+                  <td>
+                   <!-- Authentication -->
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+
+                    <x-responsive-nav-link :href="route('logout')"
+                            onclick="event.preventDefault();
+                                        this.closest('form').submit();">
+                        {{ __('Deconnexion') }}
+                    </x-responsive-nav-link>
+                </form>
+            </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-    </div>
-</x-app-layout>
+      </div>             
+@endsection
+
