@@ -19,6 +19,11 @@ class PostController extends Controller
     	return view('pages/hebergement');
     }
 
+    public function pageContent2()
+    {
+    	return view('pages/domain_name');
+    }
+
     public function createContact()
     {
     	return view('pages/contact');
