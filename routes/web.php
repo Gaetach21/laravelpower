@@ -24,6 +24,16 @@ Route::post('/Contact', [PostController::class, 'storeContact'])->name('contact.
     return view('welcome');
 });*/
 
+
+
+Route::get('angularTables', function () {
+    return view('angularTables');
+});
+Route::get('customers', function () {
+    return view('customers');
+});
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
