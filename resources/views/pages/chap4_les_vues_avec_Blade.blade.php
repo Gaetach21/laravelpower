@@ -26,7 +26,7 @@ Route::get('/contact', [PostController::class, 'contact'])->name('contact');
   </p>
   <div>
     <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
-    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre5: Compiler les assets</a>
+    <a href="{{ route('chap5') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre5: Compiler les assets</a>
   </div>
   
 <!--   <p>

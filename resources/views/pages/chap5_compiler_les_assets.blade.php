@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Compiler les assets</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Compiler les assets')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Compiler les assets (installation de TailwindCSS)</h1>
   
 <p>
@@ -41,7 +37,7 @@ mix.js('resources/js/app.js', 'public/js')
     </ul>
   </p>
 
-  <p>
+ <!--  <p>
     <h3>Exemple</h3>
     Dans <strong>webpac.mix.js</strong>, on change postcss en sass et on écrit en scss. <br>
      <pre>
@@ -112,6 +108,10 @@ on revient dans <strong>webpac.mix.js</strong><br>:
   Dans app.blade.php <br>
   <img src="{{ asset('images/laravel_tailwindcss_image1.jpg') }}"><br>
   La partie content a été centrée avec le margin-auto de tailwindcss.
-  </p>
-    </body>
-</html>
+  </p> -->
+    <div>
+    <a href="{{ route('chap4') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
+    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre6: Les migrations</a>
+  </div>
+</div>
+@endsection
