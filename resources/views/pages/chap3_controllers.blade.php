@@ -31,7 +31,7 @@ Dans App\Http\Controllers, on a le fichier <strong>PostController.php</strong><b
 
   <div>
     <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
-    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
+    <a href="{{ route('chap4') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
   </div>
 <!-- Dans <strong>routes/web.php</strong>, on a : <br>
 <pre class="bg-secondary">

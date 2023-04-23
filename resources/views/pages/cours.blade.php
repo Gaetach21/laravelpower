@@ -6,7 +6,7 @@
 	<li><a href="{{ route('chap1') }}">Chapitre1: Introduction</a></li>
 	<li><a href="{{ route('chap2') }}">Chapitre2: Routing de base</a></li>
 	<li><a href="{{ route('chap3') }}">Chapitre3: Les contrôleurs</a></li>
-	<li><a href="">Chapitre4: Les vues avec Blade</a></li>
+	<li><a href="{{ route('chap4') }}">Chapitre4: Les vues avec Blade</a></li>
 	<li><a href="">Chapitre5: Compiler les assets</a></li>
 	<li><a href="">Chapitre6: Les migrations</a></li>
 	<li><a href="">Chapitre7: Les factories</a></li>

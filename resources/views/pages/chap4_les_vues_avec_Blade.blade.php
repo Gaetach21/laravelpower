@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Les vues avec Blade</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Les vues avec Blade')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Les vues avec Blade</h1>
   
 <p>
@@ -28,9 +24,12 @@ Route::get('/contact', [PostController::class, 'contact'])->name('contact');
   </i></strong>
 </pre>
   </p>
+  <div>
+    <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
+    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre5: Compiler les assets</a>
+  </div>
   
-  
-  <p>
+<!--   <p>
 Dans App\Http\Controllers\PostController.php<br>
 <p>
 <img src="{{ asset('images/laravel_PostController9.jpg') }}" alt="PostController code" />
@@ -124,6 +123,6 @@ Résultat : <br>
 <p>
   la commande <strong>php artisan route list</strong> liste les différentes routes avec leur nom,
   la méthode utilisée, l'URI, l'action et le middleware utilisé.
-</p>
-    </body>
-</html>
+</p> -->
+</div>
+@endsection
