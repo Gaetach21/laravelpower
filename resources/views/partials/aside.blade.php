@@ -1,7 +1,6 @@
   <div id="sidebar">
   <aside>
 <h1 class="bg-primary">Catégories</h1>
-<p> <strong>{{ date('d/m/Y') }}</strong></p>
 <ul>
 <a href="#" id="actual">première catégorie</a><br />
 <a href="#" id="actual">deuxième catégorie</a><br />
@@ -14,7 +13,7 @@
 <form action="#" method="post">
 @csrf
 <p> 
-<input type="text" name="email" id="email" 
+<input type="email" name="mail" id="mail" 
 placeholder="Entrez votre adresse email" size="24" maxlength="20" />
 </p>
 <p><input type="submit" value="Souscrire" class="bg-primary text-white"/></p>

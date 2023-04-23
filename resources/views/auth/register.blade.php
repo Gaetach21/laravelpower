@@ -1,7 +1,18 @@
 @extends('layouts.app')
 @section('content')
-
-<div class="row p-5" style="background-color: rgb(192,192,192);">
+<style type="text/css">
+    .content
+{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+</style>
+<div  class="content">
 <h3>Page d'inscription</h3>
 
 

@@ -18,17 +18,19 @@ width: 150px;
 header h1
 {
 padding-top: 30px;
-margin-left: 140px;
 font-family: Verdana, serif;
 font-size: 2em;
 text-transform: uppercase;
 }
 
+header #main_title h1, header #main_title h2
+{
+	display: inline-block;
+}
 
 header h2
 {
 padding-top: 10px;
-margin-left: 140px;
 font-family: Arial, serif;
 font-size: 1.4em;
 margin-top: 0px;
@@ -43,16 +45,16 @@ display: inline-block;
 width: 900px;
 margin-bottom: 5px;
 } 
-nav ul
+nav #menu
 {
 list-style-type: none;
 } 
-nav li
+nav #menu li
 {
 display: inline-block;
 margin: 2px 25px;
 } 
-nav a
+nav #menu li a
 {
 font-size: normal;
 padding-bottom: 3px;
@@ -60,11 +62,31 @@ text-decoration: none;
 font-family: helvetica, serif;
 text-transform: uppercase;
 } 
-nav li a:hover
+nav #menu li a:hover
 {
 border-bottom: 1px solid white;
 }
 
+nav #menu li ul
+{
+	display: none;
+}
+nav #menu li:hover ul
+{
+	z-index: 99999;
+	display: list-item;
+	position: absolute;
+	list-style-type: none;
+}
+nav #menu li:hover ul li
+{
+	float: none;
+	display: block;
+	margin: 0px;
+	padding: 5px 0px;
+	margin-left: -25px;
+	margin-right: 5px;
+}
 
 #main_content
 {
@@ -228,8 +250,8 @@ position: relative;
 width: 32%;
 margin-top: 8px;
 margin-bottom: 10px;
-padding-left: 1.322%;
 line-height: 1.3em;
+padding: 5px 10px;
 }
 
 footer strong 

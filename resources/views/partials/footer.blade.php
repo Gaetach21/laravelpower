@@ -2,11 +2,9 @@
      <div class="col">
       <strong>Laravelpower</strong> 
        <ul>
-        <li><a href="#">A propos</a></li>
         <li><a href="#">Plan du site</a></li>
         <li><a href="#">Conditions d'utilisation</a></li>
         <li><a href="#">Politique de confidentialité</a></li>
-        <li><a href="#">Nous contacter</a></li>
       </ul>
       </div>
       
@@ -22,10 +20,7 @@
       
          <div class="col">
       <strong>suivez-nous</strong> 
-       <ul>
-        <li><a href="#" title="S'inscrire au flux RSS">
-        <img src="{{ asset('images/rss.png') }}" alt="flux RSS" />Flux RSS</a></li>
-        
+       <ul>       
         <li><a href="#" title="Suivez-nous sur WhatsApp">
         <img src="{{ asset('images/whatsapp.png') }}" alt="whatsapp" />WhatsApp</a></li>
         
