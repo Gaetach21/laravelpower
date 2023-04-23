@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Les contrôleurs</title>
-    </head>
-    <body>
-
+@extends('layouts.app')
+@section('title','Laravelpower | Les contrôleurs')
+@section('content')
+<div class="p-2">
    <h1>Laravel8 Les contrôleurs</h1>
   
 
@@ -33,7 +28,12 @@ Dans App\Http\Controllers, on a le fichier <strong>PostController.php</strong><b
 <p>
 <img src="{{ asset('images/laravel_PostController.jpg') }}" alt="PostController code" />
 </p>
-Dans <strong>routes/web.php</strong>, on a : <br>
+
+  <div>
+    <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
+    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
+  </div>
+<!-- Dans <strong>routes/web.php</strong>, on a : <br>
 <pre class="bg-secondary">
   <strong><i>
 use App\Http\Controllers\PostController;
@@ -103,6 +103,6 @@ Résultat à l'adresse <strong>validcv.test/posts</strong>
 <p>
 <img src="{{ asset('images/laravel_PostController8.jpg') }}" alt="PostController result3" />
 </p>
-  </p>
-    </body>
-</html>
+  </p> -->
+</div>
+@endsection
