@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Routing de base</title>
-    </head>
-    <body>
-        <p>
+@extends('layouts.app')
+@section('title','Laravelpower | Routing de base')
+@section('content')
+<div class="p-2">
+  <h1>Laravel8 Routing de base</h1>
+ <p>
   <h3>La première vue</h3>
 Dans <strong>resources/views</strong>, la première vue renvoyée est
 <strong>welcome.blade.php</strong>.
@@ -35,14 +32,21 @@ on peut renvoyer une <strong>chaine de caractères</strong>
 });
   </i></strong>
 </pre>
-Résultat à l'adresse <strong>validcv.test/posts</strong>
+<!-- Résultat à l'adresse <strong>validcv.test/posts</strong>
 <p>
 <img src="{{ asset('images/laravel_routing1.jpg') }}" alt="Routing Example" />
-</p>
+</p> -->
   </p>
   
+  <div>
+    <a href="{{ route('chap1') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre1: Introduction</a>
+    <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
+  </div>
 
-  <p>
+
+  
+
+  <!-- <p>
 <h3>Une réponse en JSON</h3>
 on peut renvoyer une <strong>réponse en JSON</strong>
 <pre>
@@ -77,6 +81,7 @@ Dans <strong>resources/views</strong>, on crée la vue
 <img src="{{ asset('images/laravel_routing3.jpg') }}" alt="Routing Example" />
 Résultat à l'adresse <strong>validcv.test/posts</strong><br>
 <img src="{{ asset('images/laravel_routing4.jpg') }}" alt="Routing Example3" />
-  </p>
-    </body>
-</html>
+  </p> -->
+</div>
+@endsection
+

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title','Laravelpower | Laravel Introduction')
 @section('content')
-<div class="p-5">
+<div class="p-2">
      <h1>Laravel8 Introduction</h1>
   
   <p>
@@ -41,7 +41,10 @@ Pour développer des applications Laravel, il faut disposer des outils suivants 
   <li>Dans Laragon/www, on sélectionne notre projet Laravel et on l'ouvre sous Visual Studio.</li>
   </ul>
   </p>
-  
+  <div>
+    <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
+  </div>
+
 <!--     <p>
    <h3>Structure d'un projet Laravel</h3>
 Un projet Laravel comporte plusieurs dossiers et fichiers : 
