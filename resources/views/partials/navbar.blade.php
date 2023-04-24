@@ -10,7 +10,7 @@
             <li><a href="#" class="text-white">Supprimer</a></li>
           </li>
           </ul> 
-          @endauth      
+          @endauth    
         <li><a href="#" class="text-white">Logiciels</a></li>
         <li><a href="{{ route('contact.create') }}" class="text-white">Contact</a></li>
         
