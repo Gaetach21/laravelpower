@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Mail\MailForAdmin;
 use Illuminate\Support\Facades\Mail;
+use App\Models\Post;
+use App\Models\Image;
 
 class PostController extends Controller
 {
@@ -13,6 +15,51 @@ class PostController extends Controller
     {
     	return view('pages/home');
     }
+
+    public function articles()
+    {
+    	$posts = Post::all();
+		return view('pages/articles',
+		['posts'=>$posts]);
+    }
+
+    public function show($id)
+    {
+        $post=Post::findOrFail($id);
+        return view('pages/article', 
+            ['post' => $post
+        ]);
+    }
+
+    public function createpost()
+    {
+        return view('pages/postform');
+    } 
+
+    public function storepost(Request $request)
+    {
+       $request->validate([
+        'title' =>['required','min:5','max:20','unique:posts'],
+        'content' =>['required']
+        ]);
+
+       $filename = time(). '.'.$request->avatar->extension();
+       $path = $request->file('avatar')->storeAs(
+        'avatars',
+        $filename,
+        'public'
+       );
+
+       $post=Post::create([
+            'title'=>$request->title,
+            'content'=>$request->content
+        ]); 
+
+       $image = new Image();
+       $image -> path = $path;
+       $post->image()->save($image);
+       return 'Votre article a été créé';
+    } 
 
     public function pageContent1()
     {

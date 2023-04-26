@@ -3,10 +3,10 @@
       <ul id="menu" class="bg-primary">
         <li><a href="{{ route('welcome') }}" class="text-white">Accueil</a></li>
         <li><a href="{{ route('courses') }}" class="text-white">Cours</a></li>
-        <li><a href="#" class="text-white">Articles</a>
+        <li><a href="{{ route('posts') }}" class="text-white">Articles</a>
           @auth
           <ul class="bg-primary">
-            <li><a href="#" class="text-white">Créer</a></li>
+            <li><a href="{{ route('posts.create') }}" class="text-white">Créer</a></li>
             <li><a href="#" class="text-white">Supprimer</a></li>
           </li>
           </ul> 
