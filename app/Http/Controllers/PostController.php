@@ -129,5 +129,10 @@ $request->validate([
         return view('pages/chap6_Les_migrations');
     }
 
+    public function chap7()
+    {
+        return view('pages/chap7_Les_factories');
+    }
+
 
 }

@@ -9,7 +9,7 @@
 	<li><a href="{{ route('chap4') }}">Chapitre4: Les vues avec Blade</a></li>
 	<li><a href="{{ route('chap5') }}">Chapitre5: Compiler les assets</a></li>
 	<li><a href="{{ route('chap6') }}">Chapitre6: Les migrations</a></li>
-	<li><a href="">Chapitre7: Les factories</a></li>
+	<li><a href="{{ route('chap7') }}">Chapitre7: Les factories</a></li>
 	<li><a href="">Chapitre8: L'ORM Eloquent</a></li>
 	<li><a href="">Chapitre9: Relation One to Many</a></li>
 	<li><a href="">Chapitre10: Relation One to One</a></li>

@@ -75,7 +75,7 @@ Created Migration: 2022_09_19_192257_create_posts_table
   <p>Sous Heidi SQL, on actualise notre base de données. On retrouve les différentes tables que l'on a migrées.</p> -->
 <div>
     <a href="{{ route('chap5') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre5: Compiler les assets</a>
-    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre7: Les factories</a>
+    <a href="{{ route('chap7') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre7: Les factories</a>
 </div>
 </div>
 @endsection
