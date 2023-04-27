@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>L'ORM Eloquent</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | L\'ORM Eloquent')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 L'ORM Eloquent</h1>
   
 <p>
@@ -16,9 +12,9 @@
   
 <p>
 Dans <strong>PostController.php</strong> :<br>
-<img src="{{ asset('images/laravel_chap8_image1.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap8_image1.jpg') }}"><br><br>
 <img src="{{ asset('images/laravel_chap8_image2.jpg') }}"><br>
-sur la page d'accueil, on a : <br>
+<!-- sur la page d'accueil, on a : <br>
 <img src="{{ asset('images/laravel_chap8_image3.jpg') }}"><br>
 Pour afficher uniquement le titre des posts dans <strong>articles.blade.php</strong><br> 
 <img src="{{ asset('images/laravel_chap8_image4.jpg') }}"><br>
@@ -116,5 +112,12 @@ Pour supprimer un post
 <p>Sur la page d'accueil<br><img src="{{ asset('images/laravel_chap8_image32.jpg') }}"></p>
 <p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image33.jpg') }}"></p>
 </p>
-    </body>
-</html>
+ -->
+<div>
+    <a href="{{ route('chap7') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre7: Les factories</a>
+    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre9: Relation One to Many</a>
+</div>
+
+</div>
+@endsection
+

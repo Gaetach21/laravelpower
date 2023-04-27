@@ -134,5 +134,10 @@ $request->validate([
         return view('pages/chap7_Les_factories');
     }
 
+    public function chap8()
+    {
+        return view('pages/chap8_L\'ORM_Eloquent');
+    }
+
 
 }
