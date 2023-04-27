@@ -115,7 +115,7 @@ Pour supprimer un post
  -->
 <div>
     <a href="{{ route('chap7') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre7: Les factories</a>
-    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre9: Relation One to Many</a>
+    <a href="{{ route('chap9') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre9: Relation One to Many</a>
 </div>
 
 </div>

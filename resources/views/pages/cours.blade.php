@@ -11,7 +11,7 @@
 	<li><a href="{{ route('chap6') }}">Chapitre6: Les migrations</a></li>
 	<li><a href="{{ route('chap7') }}">Chapitre7: Les factories</a></li>
 	<li><a href="{{ route('chap8') }}">Chapitre8: L'ORM Eloquent</a></li>
-	<li><a href="">Chapitre9: Relation One to Many</a></li>
+	<li><a href="{{ route('chap9') }}">Chapitre9: Relation One to Many</a></li>
 	<li><a href="">Chapitre10: Relation One to One</a></li>
 </ul>
 

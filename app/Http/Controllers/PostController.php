@@ -139,5 +139,10 @@ $request->validate([
         return view('pages/chap8_L\'ORM_Eloquent');
     }
 
+    public function chap9()
+    {
+        return view('pages/chap9_Relation_One_To_Many');
+    }
+
 
 }
