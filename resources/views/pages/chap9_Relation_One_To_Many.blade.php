@@ -61,7 +61,7 @@ Sur la page d'accueil : <br>
 
 <div>
     <a href="{{ route('chap8') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre8: L'ORM Eloquent</a>
-    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre10: Relation One to One</a>
+    <a href="{{ route('chap10') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre10: Relation One to One</a>
 </div>
 
 </div>

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Relation one to one</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Relation one to one')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Relation one to one</h1>
   
 <p>
@@ -30,7 +26,7 @@ On tape la commande :
 On vérifie en base de données la table <strong>images</strong>.
 </p>
 
-<p>
+<!-- <p>
 Dans Post.php<br>
 <img src="{{ asset('images/laravel_chap10_image2.jpg') }}">
 </p>
@@ -52,8 +48,12 @@ Dans <strong>article.blade.php</strong><br>
 Sur la page d'accueil : <br>
 <img src="{{ asset('images/laravel_chap10_image5.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap10_image6.jpg') }}">
-</p>
+</p> -->
 
+<div>
+    <a href="{{ route('chap9') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre9: Relation One to Many</a>
+    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre11: Relation Many to Many</a>
+</div>
 
-    </body>
-</html>
+</div>
+@endsection

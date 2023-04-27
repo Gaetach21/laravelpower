@@ -12,7 +12,7 @@
 	<li><a href="{{ route('chap7') }}">Chapitre7: Les factories</a></li>
 	<li><a href="{{ route('chap8') }}">Chapitre8: L'ORM Eloquent</a></li>
 	<li><a href="{{ route('chap9') }}">Chapitre9: Relation One to Many</a></li>
-	<li><a href="">Chapitre10: Relation One to One</a></li>
+	<li><a href="{{ route('chap10') }}">Chapitre10: Relation One to One</a></li>
 </ul>
 
 

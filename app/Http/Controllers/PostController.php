@@ -144,5 +144,10 @@ $request->validate([
         return view('pages/chap9_Relation_One_To_Many');
     }
 
+    public function chap10()
+    {
+        return view('pages/chap10_Relation_One_To_One');
+    }
+
 
 }
