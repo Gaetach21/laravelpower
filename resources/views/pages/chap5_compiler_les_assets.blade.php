@@ -111,7 +111,7 @@ on revient dans <strong>webpac.mix.js</strong><br>:
   </p> -->
     <div>
     <a href="{{ route('chap4') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
-    <a href="" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre6: Les migrations</a>
+    <a href="{{ route('chap6') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre6: Les migrations</a>
   </div>
 </div>
 @endsection

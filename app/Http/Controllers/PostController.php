@@ -124,5 +124,10 @@ $request->validate([
         return view('pages/chap5_compiler_les_assets');
     }
 
+    public function chap6()
+    {
+        return view('pages/chap6_Les_migrations');
+    }
+
 
 }
