@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Relation Has One Of Many</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Relation Has One Of Many')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Relation Has One Of Many</h1>
   
 <p>
@@ -43,7 +39,7 @@ Sur la page d'accueil, on clique sur "Mon super titre" :
 </p>
 
 
-<p>
+<!-- <p>
 On peut trier l’id à la place de content.
 Dans <strong>article.blade.php</strong><br>
 <img src="{{ asset('images/laravel_chap14_image5.jpg') }}">
@@ -52,7 +48,12 @@ Dans <strong>article.blade.php</strong><br>
 <p> 
 Sur la page d'accueil, on clique sur "Mon super titre" : 
 <br><img src="{{ asset('images/laravel_chap14_image6.jpg') }}"><br> 
-</p>
+</p> -->
 
-    </body>
-</html>
+<div>
+    <a href="{{ route('chap13') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre13: Relation has one Through</a>
+    <a href="{{ route('chap15') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre15: Les requêtes HTTP</a>
+</div>
+
+</div>
+@endsection
