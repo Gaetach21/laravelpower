@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Les requetes HTTP</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Les requetes HTTP')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Les requetes HTTP</h1>
   
 <p>
@@ -27,7 +23,7 @@ Sur la page http://laravelexperience.test/posts/create :
 <br><img src="{{ asset('images/laravel_chap15_image2.jpg') }}"><br> 
 </p>
 
-<p> 
+<!-- <p> 
 Sur la page http://laravelexperience.test/posts/create: 
 <br><img src="{{ asset('images/laravel_chap15_image3.jpg') }}"><br> 
 </p>
@@ -109,6 +105,11 @@ Dans PostController.php
 Sur la page http://laravelexperience.test/posts/create: 
 <br><img src="{{ asset('images/laravel_chap15_image18.jpg') }}"><br> 
 </p>
+ -->
+<div>
+    <a href="{{ route('chap14') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre14: Relation has one of Many</a>
+    <a href="{{ route('chap16') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre16: Validation de formulaire</a>
+</div>
 
-    </body>
-</html>
+</div>
+@endsection
