@@ -149,5 +149,35 @@ $request->validate([
         return view('pages/chap10_Relation_One_To_One');
     }
 
+    public function chap11()
+    {
+        return view('pages/chap11_Relation_Many_To_Many');
+    }
+
+    public function chap12()
+    {
+        return view('pages/chap12_Relation_One_To_Many(Polymorphic)');
+    }
+
+    public function chap13()
+    {
+        return view('pages/chap13_Relation_Has_One_Through');
+    }
+
+    public function chap14()
+    {
+        return view('pages/chap14_Relation_Has_One_Of_Many');
+    }
+
+    public function chap15()
+    {
+        return view('pages/chap15_Les_requetes_HTTP');
+    }
+
+    public function chap16()
+    {
+        return view('pages/chap16_Validation_de_formulaire');
+    }
+
 
 }

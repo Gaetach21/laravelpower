@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Relation many to many</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Relation many to many')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Relation many to many</h1>
   
 <p>
@@ -38,7 +34,7 @@ On tape la commande :
 <em><strong>php artisan migrate</strong></em><br>
 On vérifie en base de données les tables <strong>tags</strong> et 
 <strong>post_tag</strong>.<br>
-On va remplir les deux tables : <br>
+<!-- On va remplir les deux tables : <br>
 <img src="{{ asset('images/laravel_chap11_image3.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap11_image4.jpg') }}"><br>
 </p>
@@ -64,8 +60,12 @@ Sur la page d'accueil : <br>
 <img src="{{ asset('images/laravel_chap11_image8.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap11_image9.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap11_image10.jpg') }}"><br>
-</p>
+</p> -->
 
+<div>
+    <a href="{{ route('chap10') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre10: Relation One to One</a>
+    <a href="{{ route('chap12') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre12: Relation One to Many(P.)</a>
+</div>
 
-    </body>
-</html>
+</div>
+@endsection

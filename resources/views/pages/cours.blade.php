@@ -13,6 +13,12 @@
 	<li><a href="{{ route('chap8') }}">Chapitre8: L'ORM Eloquent</a></li>
 	<li><a href="{{ route('chap9') }}">Chapitre9: Relation One to Many</a></li>
 	<li><a href="{{ route('chap10') }}">Chapitre10: Relation One to One</a></li>
+	<li><a href="{{ route('chap11') }}">Chapitre11: Relation Many to Many</a></li>
+	<li><a href="{{ route('chap12') }}">Chapitre12: Relation One to Many(Polymorphic)</a></li>
+	<li><a href="{{ route('chap13') }}">Chapitre13: Relation has one Through</a></li>
+	<li><a href="{{ route('chap14') }}">Chapitre14: Relation has one of Many</a></li>
+	<li><a href="{{ route('chap15') }}">Chapitre15: Les requêtes HTTP</a></li>
+	<li><a href="{{ route('chap16') }}">Chapitre16: Validation de formulaire</a></li>
 </ul>
 
 

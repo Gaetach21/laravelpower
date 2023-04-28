@@ -40,6 +40,12 @@ Route::get('/chapitre 7', [PostController::class, 'chap7'])->name('chap7');
 Route::get('/chapitre 8', [PostController::class, 'chap8'])->name('chap8');
 Route::get('/chapitre 9', [PostController::class, 'chap9'])->name('chap9');
 Route::get('/chapitre 10', [PostController::class, 'chap10'])->name('chap10');
+Route::get('/chapitre 11', [PostController::class, 'chap11'])->name('chap11');
+Route::get('/chapitre 12', [PostController::class, 'chap12'])->name('chap12');
+Route::get('/chapitre 13', [PostController::class, 'chap13'])->name('chap13');
+Route::get('/chapitre 14', [PostController::class, 'chap14'])->name('chap14');
+Route::get('/chapitre 15', [PostController::class, 'chap15'])->name('chap15');
+Route::get('/chapitre 16', [PostController::class, 'chap16'])->name('chap16');
 
 
 Route::get('angularTables', function () {
