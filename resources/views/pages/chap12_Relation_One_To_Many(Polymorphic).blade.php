@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Relation One To Many(Polymorphic)</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Relation One To Many(Polymorphic)')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Relation One To Many(Polymorphic)</h1>
   
 <p>
@@ -46,7 +42,7 @@ Dans comments.php, on commente la relation avec la fonction post.<br>
 Dans article.blade.php, on commente la boucle forelse.<br>
 </p>
 
-<p>
+<!-- <p>
 Dans 2023_03_13_191439_remove_comments_table.php<br>
 <img src="{{ asset('images/laravel_chap12_image1.jpg') }}"><br>
 <em><strong>php artisan migrate</strong></em><br>
@@ -121,8 +117,13 @@ titre</strong> par exemple.<br>
 Dans PostController.php : <br><img src="{{ asset('images/laravel_chap12_image12.jpg') }}"><br> 
 Dans article.blade.php : <br><img src="{{ asset('images/laravel_chap12_image13.jpg') }}"><br> 
 Sur la page d'accueil : <br><img src="{{ asset('images/laravel_chap12_image14.jpg') }}"><br> 
-</p>
+</p> -->
 
 
-    </body>
-</html>
+<div>
+    <a href="{{ route('chap11') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre11: Relation Many to Many</a>
+    <a href="{{ route('chap13') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre13: Relation has one Through</a>
+</div>
+
+</div>
+@endsection
