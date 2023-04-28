@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Relation Has One Through</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Relation Has One Through')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Relation Has One Through</h1>
   
 <p>
@@ -36,7 +32,7 @@ Dans Image.php<br>
 <img src="{{ asset('images/laravel_chap13_image2.jpg') }}">
 </p>
 
-<p>
+<!-- <p>
 Dans Post.php<br>
 <img src="{{ asset('images/laravel_chap13_image3.jpg') }}">
 </p>
@@ -69,8 +65,13 @@ On met en place la relation Has One Through lorsqu'il y a une relation
 one to one entre 3 tables.<br>
 On met en place la relation Has Many Through lorsqu'il y a une relation 
 one to many entre 3 tables.<br>
-</p>
+</p> -->
 
 
-    </body>
-</html>
+<div>
+    <a href="{{ route('chap12') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre12: Relation One to Many(P.)</a>
+    <a href="{{ route('chap14') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre14: Relation has one of Many</a>
+</div>
+
+</div>
+@endsection
