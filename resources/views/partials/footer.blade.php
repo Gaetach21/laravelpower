@@ -11,7 +11,7 @@
        <div class="col">
       <strong>A propos du web</strong> 
        <ul>
-       <li><a href="#">Historique</a></li>
+       <li><a href="{{ route('historique') }}">Historique</a></li>
        <li><a href="{{ route('hebergement') }}">Hébergement web</a></li>
         <li><a href="{{ route('domain') }}">Nom de domaine</a></li>
       </ul>

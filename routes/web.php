@@ -22,6 +22,7 @@ Route::get('/Nom de domaine', [PostController::class, 'pageContent2'])->name('do
 Route::get('/Liste de cours', [PostController::class, 'pageContent3'])->name('courses');
 Route::get('/Contact', [PostController::class, 'createContact'])->name('contact.create');
 Route::post('/Contact', [PostController::class, 'storeContact'])->name('contact.store');
+Route::get('/Histoire du web', [PostController::class, 'getHistory'])->name('historique');
 
 Route::get('/Mes articles', [PostController::class, 'articles'])->name('posts');
 Route::get('/Mes articles/{id}', [PostController::class, 'show'])->name('posts.show');

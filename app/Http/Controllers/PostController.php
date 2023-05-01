@@ -76,6 +76,12 @@ class PostController extends Controller
     	return view('pages/cours');
     }
 
+    public function getHistory()
+    {
+    	return view('pages/historique');
+    }
+
+
     public function createContact()
     {
     	return view('pages/contact');
