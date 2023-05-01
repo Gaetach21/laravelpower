@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Validation de formulaire</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Validation de formulaire')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Validation de formulaire</h1>
   
 <p>
@@ -20,7 +16,7 @@ On crée le controller  et on définit la validation du formulaire
 
 <p>
 Dans PostController.php<br>
-<img src="{{ asset('images/laravel_chap16_image1.jpg') }}">
+<img src="{{ asset('images/laravel_chap16_image1.jpg') }}" style="height: 380px;">
 </p>
 
 
@@ -29,7 +25,7 @@ Dans form.blade.php<br>
 <br><img src="{{ asset('images/laravel_chap16_image2.jpg') }}">
 </p>
 
-<p> 
+<!-- <p> 
 Pour avoir des messages d’erreur en français, dans config/app.php, on modifie 'locale' => 'fr',<br>
 Dans resources/lang, on crée le dossier fr. <br>
 On copie à l’intérieur les fichiers du dossier en (auth.php, pagination.php, password.php, validation.php).<br>
@@ -65,8 +61,12 @@ Dans app\Rules, on a le fichier Uppercase.php<br>
 <p>
 Sur http://laravelexperience.test/posts/create
 <br><img src="{{ asset('images/laravel_chap16_image4.jpg') }}">
-</p>
+</p> -->
 
+<div>
+    <a href="{{ route('chap15') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre15: Les requêtes HTTP</a>
+    <a href="{{ route('chap17') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre17: Upload de fichiers</a>
+</div>
 
-    </body>
-</html>
+</div>
+@endsection

@@ -179,5 +179,10 @@ $request->validate([
         return view('pages/chap16_Validation_de_formulaire');
     }
 
+    public function chap17()
+    {
+        return view('pages/chap17_Upload_de_fichiers');
+    }
+
 
 }

@@ -19,6 +19,7 @@
 	<li><a href="{{ route('chap14') }}">Chapitre14: Relation has one of Many</a></li>
 	<li><a href="{{ route('chap15') }}">Chapitre15: Les requêtes HTTP</a></li>
 	<li><a href="{{ route('chap16') }}">Chapitre16: Validation de formulaire</a></li>
+	<li><a href="{{ route('chap17') }}">Chapitre17: Upload de fichiers</a></li>
 </ul>
 
 
