@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Upload de fichiers</title>
-    </head>
-    <body>
+@extends('layouts.app')
+@section('title','Laravelpower | Upload de fichiers')
+@section('content')
+<div class="p-2">
       <h1>Laravel8 Upload de fichiers</h1>
   
 <p>
@@ -48,7 +44,7 @@ Pour le disque public, le chemin pour partager les fichiers avec l’extérieur 
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
         ],
 </pre></strong>
-s3 est le système de stockage de fichiers qui utilise le cloud d’Amazon.
+<!-- s3 est le système de stockage de fichiers qui utilise le cloud d’Amazon.
 </p>
 
 <p>
@@ -205,6 +201,12 @@ Dans article.blade.php<br>
 <p>
 La commande <strong>php artisan storage:link</strong> crée un lien entre public\storage et storage\app\public. 
 A présent le dossier avatars est disponible depuis public.
-</p>
-    </body>
-</html>
+</p> -->
+
+<div>
+    <a href="{{ route('chap16') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre16: Validation de formulaire</a>
+    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre18: Authentification</a>
+</div>
+
+</div>
+@endsection
