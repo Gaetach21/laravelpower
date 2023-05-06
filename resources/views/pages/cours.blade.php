@@ -20,6 +20,8 @@
 	<li><a href="{{ route('chap15') }}">Chapitre15: Les requêtes HTTP</a></li>
 	<li><a href="{{ route('chap16') }}">Chapitre16: Validation de formulaire</a></li>
 	<li><a href="{{ route('chap17') }}">Chapitre17: Upload de fichiers</a></li>
+	<li><a href="{{ route('chap18') }}">Chapitre18: Authentification</a></li>
+	<li><a href="{{ route('chap19') }}">Chapitre19: Autorisation avec les gates</a></li>
 </ul>
 
 

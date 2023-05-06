@@ -205,7 +205,7 @@ A présent le dossier avatars est disponible depuis public.
 
 <div>
     <a href="{{ route('chap16') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre16: Validation de formulaire</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre18: Authentification</a>
+    <a href="{{ route('chap18') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre18: Authentification</a>
 </div>
 
 </div>

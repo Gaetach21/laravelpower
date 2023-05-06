@@ -190,5 +190,15 @@ $request->validate([
         return view('pages/chap17_Upload_de_fichiers');
     }
 
+    public function chap18()
+    {
+        return view('pages/chap18_Authentification');
+    }
+
+    public function chap19()
+    {
+        return view('pages/chap19_Upload_de_fichiers');
+    }
+
 
 }
