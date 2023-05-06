@@ -5,64 +5,29 @@
       <h1>Laravel8 Autorisation avec les gates</h1>
   
 <p>
-Je crée un projet laravel <strong>laravel-authentification</strong>.<br>
-Je crée une base de données <strong>laravel-authentification</strong><br>
-Dans le fichier <strong>.env</strong>
-<strong>
-DB_DATABASE = laravel-authentification
-</strong>
+L’autorisation donne accès à la personne authentifiée.<br>
+Les gates sont un moyen de définir l’autorisation. On crée un nouveau rôle d’administrateur. 
 </p>
 
 <p>
-Il faut installer <strong>laravel breeze</strong><br>
-Pour cela, on tape la commande suivante sur la console : <strong>composer require laravel/breeze --dev</strong><br>
-Au niveau des routes, on a un nouveau fichier <strong>auth.php</strong><br>
-Dans routes/web.php : <br>
-<strong><pre>require __DIR__.'/auth.php';</pre></strong><br>
-on tape : <strong>php artisan route:list</strong><br>
-<strong>npm install</strong><br>
-Dans Http/Controllers, on a un dossier <strong>Auth</strong> dans lequel on retrouve toutes les classes qui concernent l'authentification de notre système.
-<br>
-on tape : <strong>npm run dev</strong><br>
-Sur la page d'accueil laravel-authentication.test, on a les liens <strong>login</strong> pour se connecter et <strong>register</strong> pour s'enregistrer.<br>
-Pour migrer nos tables, on tape : <strong>php artisan migrate</strong>
+	On crée une migration :<br>
+	<strong>php artisan make:migration add_admin_column_to_users_table --table=users</strong><br>
+Dans 2022_10_30_155300_add_admin_column_to_users_table.php<br>
+<img src="{{ asset('images/laravel_chap19_image1.jpg') }}"><br>
+on tape : <strong>php artisan migrate</strong><br>
+On crée un nouvel utilisateur. 
 </p>
 
 <p>
-	Lorsqu'on s'enregistre en cliquant sur le lien <strong>register</strong>, il nous retourne la vue <strong>dashboard</strong>. Sur la page, on a un lien <strong>log out</strong> pour se déconnecter et pour se reconnecter, on clique sur le lien <strong>login</strong>.
-</p>
-
-<p>
-On crée un contrôleur de test<br>
-<strong>php artisan make :controller TestController</strong><br>
-Dans routes/web.php, on va créer 2 routes de test
-<strong><pre>
-	use App\Http\Controllers\TestController;
-Route::get('/foo', [TestController::class, 'foo'])->name('foo');
-Route::get('/bar', [TestController::class, 'bar'])->name('bar');
-</pre></strong>
+Dans la base de données dans la table users, on définit la colonne admin de l’utilisateur créé à 1.<br>
+On définit notre gate (notre autorisation).<br>
+Dans App\Providers\ AuthServiceProvider.php<br>
+<img src="{{ asset('images/laravel_chap19_image2.jpg') }}" style="height: 300px;"><br>
+<!-- Pour avoir accès à ma gate, le user admin doit être égal à 1.<br>
 Dans TestController.php<br>
-<img src="{{ asset('images/laravel_chap18_image1.jpg') }}"><br>
-Dans resources/views, on crée le dossier test dans lequel on créé 2 fichiers : <strong>foo.blade.php</strong> et <strong>bar.blade.php</strong>.<br>
-Dans foo.blade.php<br>
-<img src="{{ asset('images/laravel_chap18_image2.jpg') }}"><br>
-Dans bar.blade.php<br>
 <img src="{{ asset('images/laravel_chap18_image3.jpg') }}"><br>
-On veut accede à ces pages à moins d’etre connecté. On va utiliser un middleware qui va courcuiter nos requêtes http. Dans TestController.php :<br>
-Dans TestController.php<br>
-<img src="{{ asset('images/laravel_chap18_image4.jpg') }}"><br>
-Le middleware auth va vérifier si la personne qui consulte les vues test.foo et test.bar est connecté. Si elle n’est pas connectée, on la renvoie sur le login.<br>
-Si on veut retourner une vue sans être authentifié par exemple bar.blade.php :<br>
-<img src="{{ asset('images/laravel_chap18_image5.jpg') }}"><br>
-</p>
-
-
-<p>
-Si on veut accéder à certaines informations à moins d'etre authentifié, on utilise <strong>@auth</strong>.<br>
-Tout ce qui se trouve entre @auth et @endauth s’affiche uniquement si la personne est authentifiée.<br>
-Pour renvoyer le nom de l’utilisateur connecté :<br>
-{{ Auth::user()->name}}
-</p>
+Pour accéder à la page <strong>foo</strong>, l’utilisateur doit être administrateur sinon on renvoie une 403.
+</p> -->
 
 
 <div>

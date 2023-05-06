@@ -197,7 +197,7 @@ $request->validate([
 
     public function chap19()
     {
-        return view('pages/chap19_Upload_de_fichiers');
+        return view('pages/chap19_Autorisation_avec_les_gates');
     }
 
 

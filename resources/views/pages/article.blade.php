@@ -14,4 +14,8 @@
 <span>Aucune catégorie pour cette recette</span>
 @endforelse
 </div>
+<hr>
+<h1 style="text-transform: uppercase; text-decoration: underline;">laisser un commentaire</h1>
+<p>Vous devez <a href="{{ route('login') }}">vous connecter</a> pour publier un commentaire</p>
+
 @endsection
