@@ -200,5 +200,10 @@ $request->validate([
         return view('pages/chap19_Autorisation_avec_les_gates');
     }
 
+    public function chap20()
+    {
+        return view('pages/chap20_Envoi_des_mails');
+    }
+
 
 }

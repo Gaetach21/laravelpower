@@ -32,7 +32,7 @@ Pour accéder à la page <strong>foo</strong>, l’utilisateur doit être admini
 
 <div>
     <a href="{{ route('chap18') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre18: Authentification</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre20: Envoyer des mails</a>
+    <a href="{{ route('chap20') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre20: Envoi des mails</a>
 </div>
 
 </div>
