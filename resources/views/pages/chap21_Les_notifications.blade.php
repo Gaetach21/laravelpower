@@ -1,19 +1,21 @@
 @extends('layouts.app')
-@section('title','Laravelpower | Envoi des mails')
+@section('title','Laravelpower | Les notifications')
 @section('content')
 <div class="p-2">
-      <h1>Laravel8 Envoi des mails</h1>
+      <h1>Laravel8 Les notifications</h1>
  
- <h3>Envoi d'un simple mail</h3> 
+ <h3>Envoi d'une notification</h3> 
 <p>
-Pour envoyer des mails, on a besoin d'une classe mailable.<br>
-<strong>php artisan make :mail TestMail</strong>
-Dans App/Mail/TestMail.php<br>
-<img src="{{ asset('images/laravel_chap20_image1.jpg') }}"><br>
-Dans resources/views/emails/test.blade.php<br>
-<img src="{{ asset('images/laravel_chap20_image2.jpg') }}"><br>
-Dans TestController.php<br>
-<img src="{{ asset('images/laravel_chap20_image3.jpg') }}" style="height: 300px;"><br>
+Pour générer une notification<br>
+<strong>php artisan make:notification UserRegisteredNotification</strong><br>
+On va envoyer une notification à l'utilisateur lorsqu'il s'est enregistré<br>
+Dans RegisteredUserController.php<br>
+<img src="{{ asset('images/laravel_chap21_image1.jpg') }}"><br>
+L'utilisateur va recevoir le message suivant dans UserRegisteredNotification.php<br>
+<img src="{{ asset('images/laravel_chap21_image2.jpg') }}"><br>
+On enregistre un nouvel utilisateur en cliquant sur le lien inscription.<br>
+Il nous retourne le tableau de bord et on se rend ensuite sur mailtrap.io.<br>
+<img src="{{ asset('images/laravel_chap21_image3.jpg') }}" style="height: 300px;"><br>
 <!-- On crée un compte sous mailtrap.io pour recevoir nos mails de test.<br>
 <img src="{{ asset('images/laravel_chap20_image4.jpg') }}"> -->
 </p>
@@ -63,8 +65,8 @@ Sous mailtrap.io<br>
 
 
 <div>
-    <a href="{{ route('chap19') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre19: Autorisation avec les gates</a>
-    <a href="{{ route('chap21') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre21: Les notifications</a>
+    <a href="{{ route('chap20') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre20: Envoi des mails</a>
+    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre22: Les middlewares</a>
 </div>
 
 </div>

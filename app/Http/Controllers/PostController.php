@@ -205,5 +205,10 @@ $request->validate([
         return view('pages/chap20_Envoi_des_mails');
     }
 
+    public function chap21()
+    {
+        return view('pages/chap21_Les_notifications');
+    }
+
 
 }
