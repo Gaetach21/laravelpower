@@ -24,6 +24,8 @@
 	<li><a href="{{ route('chap19') }}">Chapitre19: Autorisation avec les gates</a></li>
 	<li><a href="{{ route('chap20') }}">Chapitre20: Envoi des mails</a></li>
 	<li><a href="{{ route('chap21') }}">Chapitre21: Les notifications</a></li>
+	<li><a href="{{ route('chap22') }}">Chapitre22: Les middlewares</a></li>
+	<li><a href="">Chapitre23: Soft Deletes</a></li>
 </ul>
 
 

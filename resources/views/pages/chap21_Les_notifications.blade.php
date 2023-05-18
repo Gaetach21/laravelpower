@@ -46,7 +46,7 @@ Sous mailtrap.io<br>
 
 <div>
     <a href="{{ route('chap20') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre20: Envoi des mails</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre22: Les middlewares</a>
+    <a href="{{ route('chap22') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre22: Les middlewares</a>
 </div>
 
 </div>

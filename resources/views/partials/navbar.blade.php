@@ -7,7 +7,7 @@
           @auth
           <ul class="bg-primary">
             <li><a href="{{ route('posts.create') }}" class="text-white">Créer</a></li>
-            <li><a href="#" class="text-white">Supprimer</a></li>
+            <li><a href="{{ route('posts.delete') }}" class="text-white">Supprimer</a></li>
           </li>
           </ul> 
           @endauth    

@@ -36,6 +36,11 @@ class PostController extends Controller
         return view('pages/postform');
     } 
 
+    public function deletepost()
+    {
+        return view('pages/deletePosts');
+    } 
+
     public function storepost(Request $request)
     {
        $request->validate([
@@ -208,6 +213,11 @@ $request->validate([
     public function chap21()
     {
         return view('pages/chap21_Les_notifications');
+    }
+
+    public function chap22()
+    {
+        return view('pages/chap22_Les_middlewares');
     }
 
 

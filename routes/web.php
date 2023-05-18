@@ -26,8 +26,14 @@ Route::get('/Histoire du web', [PostController::class, 'getHistory'])->name('his
 
 Route::get('/Mes articles', [PostController::class, 'articles'])->name('posts');
 Route::get('/Mes articles/{id}', [PostController::class, 'show'])->name('posts.show');
+
+Route::middleware(['admin'])->group(function(){
 Route::get('/Créér un article', [PostController::class, 'createpost'])->name('posts.create');
+Route::get('/Supprimer un article', [PostController::class, 'deletepost'])->name('posts.delete');
+});
+
 Route::post('/Créér un article', [PostController::class, 'storepost'])->name('posts.store');
+
 /*Route::get('/', function () {
     return view('welcome');
 });*/
@@ -52,6 +58,7 @@ Route::get('/chapitre 18', [PostController::class, 'chap18'])->name('chap18');
 Route::get('/chapitre 19', [PostController::class, 'chap19'])->name('chap19');
 Route::get('/chapitre 20', [PostController::class, 'chap20'])->name('chap20');
 Route::get('/chapitre 21', [PostController::class, 'chap21'])->name('chap21');
+Route::get('/chapitre 22', [PostController::class, 'chap22'])->name('chap22');
 
 
 Route::get('angularTables', function () {
