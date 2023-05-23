@@ -40,7 +40,7 @@ Lorsque l'utilisateur n'est pas administrateur, on obtient la page suivante : <b
 
 <div>
     <a href="{{ route('chap21') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre21: Les notifications</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre23: Soft Deletes</a>
+    <a href="{{ route('chap23') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre23: Soft Deletes</a>
 </div>
 
 </div>

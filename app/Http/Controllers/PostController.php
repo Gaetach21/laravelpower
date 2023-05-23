@@ -220,5 +220,10 @@ $request->validate([
         return view('pages/chap22_Les_middlewares');
     }
 
+    public function chap23()
+    {
+        return view('pages/chap23_Soft_Deletes');
+    }
+
 
 }
