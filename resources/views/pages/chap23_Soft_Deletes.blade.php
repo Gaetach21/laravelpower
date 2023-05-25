@@ -54,7 +54,7 @@ utilise la méthode forceDelete() dans PostController.php<br>
 
 <div>
     <a href="{{ route('chap22') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre22: Les middlewares</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre24: Les évènements</a>
+    <a href="{{ route('chap24') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre24: Les évènements</a>
 </div>
 
 </div>

@@ -2,7 +2,7 @@
 @section('title','Laravelpower | Cours sur Laravel')
 @section('content')
 <h1>liste de cours sur Laravel</h1>
-<ul >
+<ul>
 	<li><a href="{{ route('chap1') }}">Chapitre1: Introduction</a></li>
 	<li><a href="{{ route('chap2') }}">Chapitre2: Routing de base</a></li>
 	<li><a href="{{ route('chap3') }}">Chapitre3: Les contrôleurs</a></li>
@@ -26,6 +26,7 @@
 	<li><a href="{{ route('chap21') }}">Chapitre21: Les notifications</a></li>
 	<li><a href="{{ route('chap22') }}">Chapitre22: Les middlewares</a></li>
 	<li><a href="{{ route('chap23') }}">Chapitre23: Soft Deletes</a></li>
+	<li><a href="{{ route('chap24') }}">Chapitre24: Les évènements</a></li>
 </ul>
 
 

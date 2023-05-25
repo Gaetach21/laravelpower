@@ -8,6 +8,7 @@ use App\Mail\MailForAdmin;
 use Illuminate\Support\Facades\Mail;
 use App\Models\Post;
 use App\Models\Image;
+use App\Events\PostCreatedEvent;
 
 class PostController extends Controller
 {
@@ -63,7 +64,8 @@ class PostController extends Controller
        $image = new Image();
        $image -> path = $path;
        $post->image()->save($image);
-       return 'Votre article a été créé';
+       event(new PostCreatedEvent($post));
+       // return 'Votre article a été créé';
     } 
 
     public function pageContent1()
@@ -223,6 +225,11 @@ $request->validate([
     public function chap23()
     {
         return view('pages/chap23_Soft_Deletes');
+    }
+
+    public function chap24()
+    {
+        return view('pages/chap24_Les_evenements');
     }
 
 
