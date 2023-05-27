@@ -27,6 +27,8 @@
 	<li><a href="{{ route('chap22') }}">Chapitre22: Les middlewares</a></li>
 	<li><a href="{{ route('chap23') }}">Chapitre23: Soft Deletes</a></li>
 	<li><a href="{{ route('chap24') }}">Chapitre24: Les évènements</a></li>
+	<li><a href="{{ route('chap25') }}">Chapitre25: Les composants Blade</a></li>
+	<li><a href="">Chapitre26: Les routes(notions avancées)</a></li>
 </ul>
 
 

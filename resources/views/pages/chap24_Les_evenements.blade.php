@@ -40,7 +40,7 @@ Sur la page de création des articles <br>
 
 <div>
     <a href="{{ route('chap23') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre23: Soft Deletes</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre25: Les composants Blade</a>
+    <a href="{{ route('chap25') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre25: Les composants Blade</a>
 </div>
 
 </div>

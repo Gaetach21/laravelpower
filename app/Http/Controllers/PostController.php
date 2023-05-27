@@ -232,5 +232,10 @@ $request->validate([
         return view('pages/chap24_Les_evenements');
     }
 
+    public function chap25()
+    {
+        return view('pages/chap25_Les_composants_Blade');
+    }
+
 
 }
