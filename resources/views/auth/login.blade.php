@@ -31,7 +31,7 @@
             <div class="form-group">
                 <x-label for="email" :value="__('Email')" />
 
-                <x-input id="email" class="form-control" type="email" name="email" :value="old('email')" required autofocus />
+                <x-input id="email" class="form-control" type="email" name="email" :value="old('email')"  autofocus />
             </div>
 
             <!-- Password -->
@@ -41,7 +41,7 @@
                 <x-input id="password" class="form-control"
                                 type="password"
                                 name="password"
-                                required autocomplete="current-password" />
+                                 autocomplete="current-password" />
             </div>
 
 <!-- Remember Me -->

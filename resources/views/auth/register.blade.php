@@ -27,14 +27,14 @@
             <div class="form-group">
                 <x-label for="name" :value="__('Name')" />
 
-                <x-input id="name" class="form-control" type="text" name="name" :value="old('name')" required autofocus />
+                <x-input id="name" class="form-control" type="text" name="name" :value="old('name')"  autofocus />
             </div>
 
             <!-- Email Address -->
             <div class="mt-4" class="form-group">
                 <x-label for="email" :value="__('Email')" />
 
-                <x-input id="email" class="form-control" type="email" name="email" :value="old('email')" required />
+                <x-input id="email" class="form-control" type="email" name="email" :value="old('email')"  />
             </div>
 
             <!-- Password -->
@@ -44,7 +44,7 @@
                 <x-input id="password" class="form-control"
                                 type="password"
                                 name="password"
-                                required autocomplete="new-password" />
+                                 autocomplete="new-password" />
             </div>
 
             <!-- Confirm Password -->
@@ -53,7 +53,7 @@
 
                 <x-input id="password_confirmation" class="form-control"
                                 type="password"
-                                name="password_confirmation" required />
+                                name="password_confirmation"  />
             </div>
 
 <div class="mt-4">
