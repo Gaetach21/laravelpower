@@ -16,6 +16,7 @@ use App\Http\Controllers\PostController;
 
 
 
+
 Route::get('', [PostController::class, 'index'])->name('welcome');
 Route::get('/Hébergement web', [PostController::class, 'pageContent1'])->name('hebergement');
 Route::get('/Nom de domaine', [PostController::class, 'pageContent2'])->name('domain');
@@ -62,7 +63,7 @@ Route::get('/chapitre 22', [PostController::class, 'chap22'])->name('chap22');
 Route::get('/chapitre 23', [PostController::class, 'chap23'])->name('chap23');
 Route::get('/chapitre 24', [PostController::class, 'chap24'])->name('chap24');
 Route::get('/chapitre 25', [PostController::class, 'chap25'])->name('chap25');
-
+Route::get('/chapitre 26', [PostController::class, 'chap26'])->name('chap26');
 
 Route::get('angularTables', function () {
     return view('angularTables');

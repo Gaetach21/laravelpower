@@ -237,5 +237,10 @@ $request->validate([
         return view('pages/chap25_Les_composants_Blade');
     }
 
+    public function chap26()
+    {
+        return view('pages/chap26_Les_routes_notions_avancees');
+    }
+
 
 }
