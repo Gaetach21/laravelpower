@@ -10,9 +10,9 @@ use App\Models\Post;
 use App\Models\Image;
 use App\Events\PostCreatedEvent;
 
-class PostController extends Controller
+class MainController extends Controller
 {
-    public function index()
+        public function index()
     {
     	return view('pages/home');
     }
@@ -241,6 +241,4 @@ $request->validate([
     {
         return view('pages/chap26_Les_routes_notions_avancees');
     }
-
-
 }
