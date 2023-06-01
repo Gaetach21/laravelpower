@@ -25,15 +25,6 @@ Route::get('/Contact', [MainController::class, 'createContact'])->name('contact.
 Route::post('/Contact', [MainController::class, 'storeContact'])->name('contact.store');
 Route::get('/Histoire du web', [MainController::class, 'getHistory'])->name('historique');
 
-Route::get('/Mes articles', [MainController::class, 'articles'])->name('posts');
-Route::get('/Mes articles/{id}', [MainController::class, 'show'])->name('posts.show');
-
-Route::middleware(['admin'])->group(function(){
-Route::get('/Créér un article', [MainController::class, 'createpost'])->name('posts.create');
-Route::get('/Supprimer un article', [MainController::class, 'deletepost'])->name('posts.delete');
-});
-
-Route::post('/Créér un article', [MainController::class, 'storepost'])->name('posts.store');
 
 /*Route::get('/', function () {
     return view('welcome');

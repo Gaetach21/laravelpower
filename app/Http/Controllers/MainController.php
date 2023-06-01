@@ -6,66 +6,15 @@ use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Mail\MailForAdmin;
 use Illuminate\Support\Facades\Mail;
-use App\Models\Post;
-use App\Models\Image;
-use App\Events\PostCreatedEvent;
+
+
+
 
 class MainController extends Controller
 {
         public function index()
     {
     	return view('pages/home');
-    }
-
-    public function articles()
-    {
-    	$posts = Post::all();
-		return view('pages/articles',
-		['posts'=>$posts]);
-    }
-
-    public function show($id)
-    {
-        $post=Post::findOrFail($id);
-        return view('pages/article', 
-            ['post' => $post
-        ]);
-    }
-
-    public function createpost()
-    {
-        return view('pages/postform');
-    } 
-
-    public function deletepost()
-    {
-        return view('pages/deletePosts');
-    } 
-
-    public function storepost(Request $request)
-    {
-       $request->validate([
-        'title' =>['required','min:5','max:255','unique:posts'],
-        'content' =>['required']
-        ]);
-
-       $filename = time(). '.'.$request->avatar->extension();
-       $path = $request->file('avatar')->storeAs(
-        'avatars',
-        $filename,
-        'public'
-       );
-
-       $post=Post::create([
-            'title'=>$request->title,
-            'content'=>$request->content
-        ]); 
-
-       $image = new Image();
-       $image -> path = $path;
-       $post->image()->save($image);
-       event(new PostCreatedEvent($post));
-       // return 'Votre article a été créé';
     } 
 
     public function pageContent1()

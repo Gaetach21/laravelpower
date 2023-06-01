@@ -22,7 +22,7 @@
 
   <p>Vous pouvez choisir votre manière d'apprendre à coder en utilisant <strong>Laravel</strong>
   à travers mes <a href="{{ route('courses') }}">cours</a>.<br>
-  Vous avez également la possibilité de consulter mes <a href="{{ route('posts') }}">articles</a> sur 
+  Vous avez également la possibilité de consulter mes <a href="{{ route('gestion.articles.index') }}">articles</a> sur 
     le framework <strong>Laravel</strong>.<br>
   Si vous éprouvez des difficultés à assimiler certains <a href="{{ route('courses') }}">cours</a> 
   ou à manipuler certains <a href="#">logiciels</a>, vous pouvez me joindre en cliquant 
