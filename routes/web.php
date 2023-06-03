@@ -18,6 +18,7 @@ use App\Http\Controllers\MainController;
 
 
 Route::get('', [MainController::class, 'index'])->name('welcome');
+Route::get('/A propos de Laravelpower', [MainController::class, 'about'])->name('about_us');
 Route::get('/Hébergement web', [MainController::class, 'pageContent1'])->name('hebergement');
 Route::get('/Nom de domaine', [MainController::class, 'pageContent2'])->name('domain');
 Route::get('/Liste de cours', [MainController::class, 'pageContent3'])->name('courses');

@@ -3,7 +3,7 @@
 @section('content')
 <h1>Laravelpower - Toute la puissance de Laravel</h1>
    <p>
-  <center><img src="{{ asset('images/laravel_logo.png') }}" alt="le logo de Laravel" style="height: 90px;" /></center>
+  <center><img src="{{ asset('images/laravel_logo.png') }}" alt="le logo de Laravel"  /></center>
   </p>
   <p>Que vous soyez simple débutant, curieux ou passionnés du développement web,
   <strong>Laravelpower</strong> vous permet d'apprendre et de développer des compétences en

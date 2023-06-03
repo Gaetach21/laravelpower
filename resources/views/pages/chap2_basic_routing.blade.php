@@ -32,21 +32,14 @@ on peut renvoyer une <strong>chaine de caractères</strong>
 });
   </i></strong>
 </pre>
-<!-- Résultat à l'adresse <strong>validcv.test/posts</strong>
+ Résultat à l'adresse <strong>validcv.test/posts</strong>
 <p>
 <img src="{{ asset('images/laravel_routing1.jpg') }}" alt="Routing Example" />
-</p> -->
+</p>
   </p>
   
-  <div>
-    <a href="{{ route('chap1') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre1: Introduction</a>
-    <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
-  </div>
 
-
-  
-
-  <!-- <p>
+  <p>
 <h3>Une réponse en JSON</h3>
 on peut renvoyer une <strong>réponse en JSON</strong>
 <pre>
@@ -78,10 +71,15 @@ Route::get('articles', function () {
 Dans <strong>resources/views</strong>, on crée la vue
 <strong>articles.blade.php</strong>.<br>
 <h2>Example</h2>
-<img src="{{ asset('images/laravel_routing3.jpg') }}" alt="Routing Example" />
+<img src="{{ asset('images/laravel_routing3.jpg') }}" alt="Routing Example" /><br>
 Résultat à l'adresse <strong>validcv.test/posts</strong><br>
 <img src="{{ asset('images/laravel_routing4.jpg') }}" alt="Routing Example3" />
-  </p> -->
+  </p>
+
+  <div>
+    <a href="{{ route('chap1') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre1: Introduction</a>
+    <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
+  </div>
 </div>
 @endsection
 

@@ -17,6 +17,12 @@ class MainController extends Controller
     	return view('pages/home');
     } 
 
+    	public function about()
+    {
+    	return view('pages/about');
+    } 
+
+
     public function pageContent1()
     {
     	return view('pages/hebergement');

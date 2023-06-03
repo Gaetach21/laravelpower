@@ -41,11 +41,8 @@ Pour développer des applications Laravel, il faut disposer des outils suivants 
   <li>Dans Laragon/www, on sélectionne notre projet Laravel et on l'ouvre sous Visual Studio.</li>
   </ul>
   </p>
-  <div>
-    <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
-  </div>
 
-<!--     <p>
+     <p>
    <h3>Structure d'un projet Laravel</h3>
 Un projet Laravel comporte plusieurs dossiers et fichiers : 
 <ul>
@@ -56,7 +53,12 @@ Un projet Laravel comporte plusieurs dossiers et fichiers :
     <li>le dossier <strong>Resources</strong> contient entre autres les vues.</li>
   <li>le fichier <strong>.env</strong> contient les variables d'environnement.</li>
   </ul>
-  </p> -->
+  </p> 
+
+  <div>
+    <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
+  </div>
+  
 </div>
 @endsection
 
