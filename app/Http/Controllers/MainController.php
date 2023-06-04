@@ -196,4 +196,9 @@ $request->validate([
     {
         return view('pages/chap26_Les_routes_notions_avancees');
     }
+
+    public function chap27()
+    {
+        return view('pages/chap27_HTTP_client');
+    }
 }

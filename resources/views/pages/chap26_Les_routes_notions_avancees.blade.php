@@ -93,7 +93,7 @@ On fait <strong>php artisan route:list</strong>, tout fonctionne bien.
 
 <div>
     <a href="{{ route('chap25') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre25: Les composants Blade</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre27: HTTP client</a>
+    <a href="{{ route('chap27') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre27: HTTP client</a>
 </div>
 
 </div>
