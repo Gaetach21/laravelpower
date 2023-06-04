@@ -24,12 +24,8 @@ Route::get('/contact', [PostController::class, 'contact'])->name('contact');
   </i></strong>
 </pre>
   </p>
-  <div>
-    <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
-    <a href="{{ route('chap5') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre5: Compiler les assets</a>
-  </div>
   
-<!--   <p>
+   <p>
 Dans App\Http\Controllers\PostController.php<br>
 <p>
 <img src="{{ asset('images/laravel_PostController9.jpg') }}" alt="PostController code" />
@@ -59,7 +55,7 @@ Résultat : <br>
 URL : <strong>http://validcv.test/posts/th</strong><br>
 Résultat : <br>
 <p>
-<img src="{{ asset('images/laravel_PostController13.jpg') }}" alt="PostController result" />
+<img src="{{ asset('images/laravel_PostController13.jpg') }}" alt="PostController result" style="width: 75%;" />
 </p>
 On crée la vue contact.blade.php<br>
 <p>
@@ -123,6 +119,12 @@ Résultat : <br>
 <p>
   la commande <strong>php artisan route list</strong> liste les différentes routes avec leur nom,
   la méthode utilisée, l'URI, l'action et le middleware utilisé.
-</p> -->
+</p>
+
+  <div>
+    <a href="{{ route('chap3') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre3: Les contrôleurs</a>
+    <a href="{{ route('chap5') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre5: Compiler les assets</a>
+  </div>
+  
 </div>
 @endsection

@@ -11,7 +11,7 @@
       <img src="{{ asset('images/domain_name.png') }}" alt="#" style="width: 600px;" />
       <figcaption><center>Description d'une URL</center></figcaption>
 </figure>
-<!-- <p>Le nom de domaine comprend deux parties :</p>
+ <p>Le nom de domaine comprend deux parties :</p>
 <ol>
 	<li>le <strong>nom de domaine de deuxième niveau</strong> (second-level domain ou SLD), sous-domaine ou encore radical ;</li>
 	<li>le <strong>nom de domaine de premier niveau</strong> (top-level domain ou TLD) ou extension. Les noms de domaine de premier niveau peuvent être subdivisés en deux catégories générales : 
@@ -28,6 +28,6 @@
 	<li>il sert à personnaliser les adresses de messagerie électronique et à promouvoir le site web ;</li>
 	<li>il représente un réel actif sur lequel l’entreprise peut capitaliser pour créer de la valeur.</li>
 </ul>
- -->
+ 
 @endsection
 

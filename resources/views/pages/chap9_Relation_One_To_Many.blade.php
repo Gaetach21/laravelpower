@@ -29,7 +29,7 @@ On tape la commande :
 On vérifie en base de données la table <strong>comments</strong>.
 </p>
 
-<!-- <p>
+ <p>
 Dans Post.php<br>
 <img src="{{ asset('images/laravel_chap9_image3.jpg') }}"><br>
 Cela signifie qu'un post détient plusieurs commentaires.
@@ -56,8 +56,8 @@ Dans <strong>article.blade.php</strong><br>
 <p>
 Sur la page d'accueil : <br>
 <img src="{{ asset('images/laravel_chap9_image7.jpg') }}"><br>
-<img src="{{ asset('images/laravel_chap9_image8.jpg') }}"><br>
-</p> -->
+<img src="{{ asset('images/laravel_chap9_image8.jpg') }}" style="width: 75%;">
+</p> 
 
 <div>
     <a href="{{ route('chap8') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre8: L'ORM Eloquent</a>

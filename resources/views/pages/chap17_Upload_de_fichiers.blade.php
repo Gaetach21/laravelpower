@@ -44,7 +44,7 @@ Pour le disque public, le chemin pour partager les fichiers avec l’extérieur 
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
         ],
 </pre></strong>
-<!-- s3 est le système de stockage de fichiers qui utilise le cloud d’Amazon.
+ s3 est le système de stockage de fichiers qui utilise le cloud d’Amazon.
 </p>
 
 <p>
@@ -62,7 +62,7 @@ Dans form.blade.php<br>
 </p>
 
 <p>
-Dans PostController.php
+Dans PostController.php<br>
 <img src="{{ asset('images/laravel_chap17_image2.jpg') }}">
 <br>On clique sur creer et dans storage/app, on a le fichier example.txt avec comme contenu : 
 Mon contenu de test.
@@ -173,7 +173,7 @@ $filename = time(). '.'.$request->avatar->extension();
 
 <p>
 A présent, on va enregistrer une image pour chacun de nos posts.<br>
-Dans PostController.php
+Dans PostController.php<br>
 <img src="{{ asset('images/laravel_chap17_image3.jpg') }}">
 </p>
 
@@ -201,7 +201,7 @@ Dans article.blade.php<br>
 <p>
 La commande <strong>php artisan storage:link</strong> crée un lien entre public\storage et storage\app\public. 
 A présent le dossier avatars est disponible depuis public.
-</p> -->
+</p> 
 
 <div>
     <a href="{{ route('chap16') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre16: Validation de formulaire</a>

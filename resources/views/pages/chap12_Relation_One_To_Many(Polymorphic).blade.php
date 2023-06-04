@@ -42,7 +42,7 @@ Dans comments.php, on commente la relation avec la fonction post.<br>
 Dans article.blade.php, on commente la boucle forelse.<br>
 </p>
 
-<!-- <p>
+ <p>
 Dans 2023_03_13_191439_remove_comments_table.php<br>
 <img src="{{ asset('images/laravel_chap12_image1.jpg') }}"><br>
 <em><strong>php artisan migrate</strong></em><br>
@@ -117,7 +117,7 @@ titre</strong> par exemple.<br>
 Dans PostController.php : <br><img src="{{ asset('images/laravel_chap12_image12.jpg') }}"><br> 
 Dans article.blade.php : <br><img src="{{ asset('images/laravel_chap12_image13.jpg') }}"><br> 
 Sur la page d'accueil : <br><img src="{{ asset('images/laravel_chap12_image14.jpg') }}"><br> 
-</p> -->
+</p> 
 
 
 <div>

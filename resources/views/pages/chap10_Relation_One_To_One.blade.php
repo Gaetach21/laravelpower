@@ -26,7 +26,7 @@ On tape la commande :
 On vérifie en base de données la table <strong>images</strong>.
 </p>
 
-<!-- <p>
+ <p>
 Dans Post.php<br>
 <img src="{{ asset('images/laravel_chap10_image2.jpg') }}">
 </p>
@@ -46,9 +46,9 @@ Dans <strong>article.blade.php</strong><br>
 
 <p>
 Sur la page d'accueil : <br>
-<img src="{{ asset('images/laravel_chap10_image5.jpg') }}"><br>
-<img src="{{ asset('images/laravel_chap10_image6.jpg') }}">
-</p> -->
+<img src="{{ asset('images/laravel_chap10_image5.jpg') }}" style="width: 75%;"><br>
+<img src="{{ asset('images/laravel_chap10_image6.jpg') }}" style="width: 75%;">
+</p> 
 
 <div>
     <a href="{{ route('chap9') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre9: Relation One to Many</a>

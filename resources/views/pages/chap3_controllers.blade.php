@@ -29,11 +29,7 @@ Dans App\Http\Controllers, on a le fichier <strong>PostController.php</strong><b
 <img src="{{ asset('images/laravel_PostController.jpg') }}" alt="PostController code" />
 </p>
 
-  <div>
-    <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
-    <a href="{{ route('chap4') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
-  </div>
-<!-- Dans <strong>routes/web.php</strong>, on a : <br>
+ Dans <strong>routes/web.php</strong>, on a : <br>
 <pre class="bg-secondary">
   <strong><i>
 use App\Http\Controllers\PostController;
@@ -103,6 +99,12 @@ Résultat à l'adresse <strong>validcv.test/posts</strong>
 <p>
 <img src="{{ asset('images/laravel_PostController8.jpg') }}" alt="PostController result3" />
 </p>
-  </p> -->
+  </p>
+
+    <div>
+    <a href="{{ route('chap2') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre2: Routing de base</a>
+    <a href="{{ route('chap4') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
+  </div>
+  
 </div>
 @endsection

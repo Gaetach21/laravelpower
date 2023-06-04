@@ -38,7 +38,7 @@ Dans App\Models\Recipe.php
   <p>
 <strong><u>Etape2</u></strong>: créer une factorie<br>
 <em><strong>php artisan make:factory PostFactory --model=Post</strong></em><br>
-<!-- Dans C:\laragon\www\laravelexperience\database\factories\PostFactory.php : <br>
+ Dans C:\laragon\www\laravelexperience\database\factories\PostFactory.php : <br>
     <pre>
       <strong>
 
@@ -74,7 +74,7 @@ class PostFactory extends Factory
     et <strong><em>php artisan tinker</em></strong><br>
     >>><strong><em>Post::factory()->count(10)->create()</em></strong><br>
     Sous Heidi SQL, dans la table posts, on a 10 fausses informations créees.
-</p> -->
+</p>
 
 <div>
     <a href="{{ route('chap6') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre6: Les migrations</a>

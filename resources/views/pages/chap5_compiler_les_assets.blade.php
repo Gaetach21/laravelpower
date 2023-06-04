@@ -11,7 +11,7 @@ un seul fichier js et un seul fichier css minifié et compact pour gagner un max
 </p>
   
 <p>
-  A la racine du projet, le fichier <strong>webpac.mix.js</strong><br>:
+  A la racine du projet, le fichier <strong>webpack.mix.js</strong><br>:
   <pre >
     <i>
       
@@ -37,9 +37,9 @@ mix.js('resources/js/app.js', 'public/js')
     </ul>
   </p>
 
- <!--  <p>
+  <p>
     <h3>Exemple</h3>
-    Dans <strong>webpac.mix.js</strong>, on change postcss en sass et on écrit en scss. <br>
+    Dans <strong>webpack.mix.js</strong>, on change postcss en sass et on écrit en scss. <br>
      <pre>
     <i>
     .sass('resources/scss/app.scss', 'public/css', [
@@ -94,7 +94,7 @@ Dans resources/js/app.js, on écrit : <br>
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
           </pre><br>
-on revient dans <strong>webpac.mix.js</strong><br>:
+on revient dans <strong>webpack.mix.js</strong><br>:
   <pre >
     <i>
     .postCss('resources/css/app.css', 'public/css', [
@@ -108,10 +108,12 @@ on revient dans <strong>webpac.mix.js</strong><br>:
   Dans app.blade.php <br>
   <img src="{{ asset('images/laravel_tailwindcss_image1.jpg') }}"><br>
   La partie content a été centrée avec le margin-auto de tailwindcss.
-  </p> -->
+  </p>
+
     <div>
     <a href="{{ route('chap4') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre4: Les vues avec Blade</a>
     <a href="{{ route('chap6') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre6: Les migrations</a>
   </div>
+  
 </div>
 @endsection

@@ -23,11 +23,11 @@ Dans la base de données dans la table users, on définit la colonne admin de l�
 On définit notre gate (notre autorisation).<br>
 Dans App\Providers\ AuthServiceProvider.php<br>
 <img src="{{ asset('images/laravel_chap19_image2.jpg') }}" style="height: 300px;"><br>
-<!-- Pour avoir accès à ma gate, le user admin doit être égal à 1.<br>
+ Pour avoir accès à ma gate, le user admin doit être égal à 1.<br>
 Dans TestController.php<br>
 <img src="{{ asset('images/laravel_chap18_image3.jpg') }}"><br>
 Pour accéder à la page <strong>foo</strong>, l’utilisateur doit être administrateur sinon on renvoie une 403.
-</p> -->
+</p> 
 
 
 <div>

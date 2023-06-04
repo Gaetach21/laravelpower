@@ -29,14 +29,13 @@ On enregistre notre middleware <strong>IsAdmin</strong> dans kernel.php.<br>
 <img src="{{ asset('images/laravel_chap22_image2.jpg') }}" style="width: 500px;"><br>
 J'affecte les routes /créér un article et /supprimer un article à l'aide du 
 middleware <strong>IsAdmin</strong><br>
-<!-- Dans routes/web.php<br>
+ Dans routes/web.php<br>
 <img src="{{ asset('images/laravel_chap22_image3.jpg') }}"><br> 
 Dans IsAdmin.php<br>
 <img src="{{ asset('images/laravel_chap22_image4.jpg') }}"><br> 
 Lorsque l'utilisateur n'est pas administrateur, on obtient la page suivante : <br>
-<img src="{{ asset('images/laravel_chap22_image5.jpg') }}"> -->
+<img src="{{ asset('images/laravel_chap22_image5.jpg') }}"> 
 </p>
-
 
 <div>
     <a href="{{ route('chap21') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre21: Les notifications</a>

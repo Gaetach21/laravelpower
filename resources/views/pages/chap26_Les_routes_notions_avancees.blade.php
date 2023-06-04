@@ -24,25 +24,25 @@ Dans App\Http\Controllers\BookController.php<br>
 <img src="{{ asset('images/laravel_chap26_image1.jpg') }}" style="height: 370px;"><br>
 Dans routes\web.php<br>
 <img src="{{ asset('images/laravel_chap26_image2.jpg') }}"><br>
-<!-- On affiche les routes : <br>
+ On affiche les routes : <br>
 <strong>php artisan route:list</strong><br>
-<img src="{{ asset('images/laravel_chap26_image3.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap26_image3.jpg') }}" style="width: 90%;"><br>
 Si on change l'URI dans web.php<br>
 <img src="{{ asset('images/laravel_chap26_image4.jpg') }}"><br>
 <strong>php artisan route:list</strong><br>
-<img src="{{ asset('images/laravel_chap26_image5.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap26_image5.jpg') }}" style="width: 90%;"><br>
 On peut sélectionner les routes dont on a besoin, par exemple on 
 ne veut pas les routes edit, update et destroy.<br>
 Dans routes\web.php<br>
 <img src="{{ asset('images/laravel_chap26_image6.jpg') }}"><br>
 <strong>php artisan route:list</strong><br>
-<img src="{{ asset('images/laravel_chap26_image7.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap26_image7.jpg') }}" style="width: 90%;"><br>
 A la place de la fonction except(), on peut utiliser la fonction 
 contraire only().<br>
 Dans routes\web.php<br>
 <img src="{{ asset('images/laravel_chap26_image8.jpg') }}"><br>
 <strong>php artisan route:list</strong><br>
-<img src="{{ asset('images/laravel_chap26_image9.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap26_image9.jpg') }}" style="width: 90%;"><br>
 On peut gerer les routes suivant les middlewares.<br>
 Dans routes\web.php<br>
 <img src="{{ asset('images/laravel_chap26_image10.jpg') }}"><br>
@@ -87,9 +87,8 @@ où on a défini le préfixe, le middleware, le namespace, le group, etc.<br>
 Dans le dossier routes, on crée le dossier book dans lequel on crée le fichier <strong>web.php</strong>.<br>
 Dans routes/book/web.php<br>
 <img src="{{ asset('images/laravel_chap26_image20.jpg') }}"><br>
-On fait <strong>php artisan route:list</strong>, tout fonctionne bien. -->
+On fait <strong>php artisan route:list</strong>, tout fonctionne bien. 
 </p>
-
 
 
 <div>

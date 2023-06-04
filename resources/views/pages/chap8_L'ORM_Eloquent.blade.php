@@ -14,8 +14,8 @@
 Dans <strong>PostController.php</strong> :<br>
 <img src="{{ asset('images/laravel_chap8_image1.jpg') }}"><br><br>
 <img src="{{ asset('images/laravel_chap8_image2.jpg') }}"><br>
-<!-- sur la page d'accueil, on a : <br>
-<img src="{{ asset('images/laravel_chap8_image3.jpg') }}"><br>
+ sur la page d'accueil, on a : <br>
+<img src="{{ asset('images/laravel_chap8_image3.jpg') }}" style="width: 75%;"><br>
 Pour afficher uniquement le titre des posts dans <strong>articles.blade.php</strong><br> 
 <img src="{{ asset('images/laravel_chap8_image4.jpg') }}"><br>
 sur la page d'accueil, on a : <br>
@@ -83,11 +83,11 @@ sur la page d'accueil<br>
 Pour récupérer les données dans la BD, la table posts
 <p>Dans PostController.php<br><img src="{{ asset('images/laravel_chap8_image20.jpg') }}"></p>
 <p>Sur la page d'accueil<br><img src="{{ asset('images/laravel_chap8_image21.jpg') }}"></p>
-<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image22.jpg') }}"></p>
+<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image22.jpg') }}" style="width: 75%;"></p>
 <p>On peut proceder autrement.</p>
 <p>Dans PostController.php<br><img src="{{ asset('images/laravel_chap8_image23.jpg') }}"></p>
 <p>Sur la page d'accueil<br><img src="{{ asset('images/laravel_chap8_image24.jpg') }}"></p>
-<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image25.jpg') }}"></p>
+<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image25.jpg') }}" style="width: 75%;"></p>
 </p>
 
 <p>
@@ -103,16 +103,16 @@ Pour récupérer 3posts dans l'ordre alphabétique:<br>
 Pour mettre à jour un post
 <p>Dans PostController.php<br><img src="{{ asset('images/laravel_chap8_image30.jpg') }}"></p>
 <p>Sur la page d'accueil<br><img src="{{ asset('images/laravel_chap8_image31.jpg') }}"></p>
-<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image32.jpg') }}"></p>
+<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image32.jpg') }}" style="width: 75%;"></p>
 </p>
   
   <p>
 Pour supprimer un post
-<p>Dans PostController.php<br><img src="{{ asset('images/laravel_chap8_image31.jpg') }}"></p>
-<p>Sur la page d'accueil<br><img src="{{ asset('images/laravel_chap8_image32.jpg') }}"></p>
-<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image33.jpg') }}"></p>
+<p>Dans PostController.php<br><img src="{{ asset('images/laravel_chap8_image33.jpg') }}"></p>
+<p>Sur la page d'accueil<br><img src="{{ asset('images/laravel_chap8_image31.jpg') }}"></p>
+<p>Dans la table posts<br><img src="{{ asset('images/laravel_chap8_image32.jpg') }}" style="width: 75%;"></p>
 </p>
- -->
+
 <div>
     <a href="{{ route('chap7') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre7: Les factories</a>
     <a href="{{ route('chap9') }}" class="bg-primary p-2 text-white mx-5" style="text-decoration: none;">Chapitre9: Relation One to Many</a>

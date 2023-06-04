@@ -18,7 +18,7 @@ Il nous retourne le tableau de bord et on se rend ensuite sur mailtrap.io.<br>
 <img src="{{ asset('images/laravel_chap21_image3.jpg') }}" style="height: 250px;"><br>
 </p>
 
-<!-- <h3>Envoi d'une notifications avec informations</h3>
+ <h3>Envoi d'une notifications avec informations</h3>
 <p>
 Maintenant on veut passer des petites informations à la construction de notre notification.<br>
 Dans RegisteredUserController.php<br>
@@ -42,7 +42,7 @@ Dans UserRegisteredNotification.php
 <img src="{{ asset('images/laravel_chap21_image9.jpg') }}"><br>
 Sous mailtrap.io<br>
 <img src="{{ asset('images/laravel_chap21_image10.jpg') }}"><br>
-</p> -->
+</p> 
 
 <div>
     <a href="{{ route('chap20') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre20: Envoi des mails</a>

@@ -35,7 +35,7 @@ Pour migrer nos tables, on tape : <strong>php artisan migrate</strong>
 <p>
 On crée un contrôleur de test<br>
 <strong>php artisan make :controller TestController</strong><br>
-<!-- Dans routes/web.php, on va créer 2 routes de test
+ Dans routes/web.php, on va créer 2 routes de test
 <strong><pre>
 	use App\Http\Controllers\TestController;
 Route::get('/foo', [TestController::class, 'foo'])->name('foo');
@@ -54,9 +54,7 @@ Dans TestController.php<br>
 Le middleware auth va vérifier si la personne qui consulte les vues test.foo et test.bar est connecté. Si elle n’est pas connectée, on la renvoie sur le login.<br>
 Si on veut retourner une vue sans être authentifié par exemple bar.blade.php :<br>
 <img src="{{ asset('images/laravel_chap18_image5.jpg') }}"><br>
-</p> -->
-
-
+</p> 
 
 
 <div>

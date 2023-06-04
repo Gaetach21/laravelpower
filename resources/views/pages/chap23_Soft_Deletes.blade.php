@@ -23,7 +23,7 @@ Dans Post.php<br>
 <img src="{{ asset('images/laravel_chap23_image4.jpg') }}"><br>	
 On fait une migration pour ajouter une colonne <strong>deleted_at</strong> à la table posts<br>
 <strong>php artisan make:migration add_deleted_at_to_posts_table --table=posts</strong><br>
-<!-- Dans Database/Migrations/add_deleted_at_to_posts_table.php<br>
+ Dans Database/Migrations/add_deleted_at_to_posts_table.php<br>
 <img src="{{ asset('images/laravel_chap23_image5.jpg') }}"><br>
 <strong>php artisan migrate</strong><br>
 Je réactualise ma table posts en base de données, j'ai un nouveau champ 
@@ -46,10 +46,8 @@ Sur la page des articles, on retrouve le premier post<br>
 <img src="{{ asset('images/laravel_chap23_image11.jpg') }}"><br>
 Pour définitivement supprimer la donnée de la table, on 
 utilise la méthode forceDelete() dans PostController.php<br>
-<img src="{{ asset('images/laravel_chap23_image12.jpg') }}"><br> -->
+<img src="{{ asset('images/laravel_chap23_image12.jpg') }}"><br>
 </p>
-
-
 
 
 <div>

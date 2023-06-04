@@ -14,11 +14,11 @@ Dans resources/views/emails/test.blade.php<br>
 <img src="{{ asset('images/laravel_chap20_image2.jpg') }}"><br>
 Dans TestController.php<br>
 <img src="{{ asset('images/laravel_chap20_image3.jpg') }}" style="height: 300px;"><br>
-<!-- On crée un compte sous mailtrap.io pour recevoir nos mails de test.<br>
-<img src="{{ asset('images/laravel_chap20_image4.jpg') }}"> -->
+ On crée un compte sous mailtrap.io pour recevoir nos mails de test.<br>
+<img src="{{ asset('images/laravel_chap20_image4.jpg') }}"> 
 </p>
 
-<!-- <h3>Envoi d'un mail dynamique</h3>
+ <h3>Envoi d'un mail dynamique</h3>
 <p>
 Pour envoyer un mail dynamique, on crée un faux utilisateur qui a pour email : 
 <strong>'user@test.com'</strong> et pour nom : <strong>monsieur Gaetan</strong>.<br>
@@ -56,11 +56,7 @@ Dans TestController.php<br>
 <img src="{{ asset('images/laravel_chap20_image14.jpg') }}"><br>
 Sous mailtrap.io<br>
 <img src="{{ asset('images/laravel_chap20_image15.jpg') }}">
-</p> -->
-
-
-
-
+</p> 
 
 <div>
     <a href="{{ route('chap19') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre19: Autorisation avec les gates</a>

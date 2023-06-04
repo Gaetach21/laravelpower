@@ -23,7 +23,7 @@ Sur la page http://laravelexperience.test/posts/create :
 <br><img src="{{ asset('images/laravel_chap15_image2.jpg') }}"><br> 
 </p>
 
-<!-- <p> 
+ <p> 
 Sur la page http://laravelexperience.test/posts/create: 
 <br><img src="{{ asset('images/laravel_chap15_image3.jpg') }}"><br> 
 </p>
@@ -105,7 +105,7 @@ Dans PostController.php
 Sur la page http://laravelexperience.test/posts/create: 
 <br><img src="{{ asset('images/laravel_chap15_image18.jpg') }}"><br> 
 </p>
- -->
+ 
 <div>
     <a href="{{ route('chap14') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre14: Relation has one of Many</a>
     <a href="{{ route('chap16') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre16: Validation de formulaire</a>

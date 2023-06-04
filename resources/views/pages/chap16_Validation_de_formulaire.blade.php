@@ -25,7 +25,7 @@ Dans form.blade.php<br>
 <br><img src="{{ asset('images/laravel_chap16_image2.jpg') }}">
 </p>
 
-<!-- <p> 
+ <p> 
 Pour avoir des messages d’erreur en français, dans config/app.php, on modifie 'locale' => 'fr',<br>
 Dans resources/lang, on crée le dossier fr. <br>
 On copie à l’intérieur les fichiers du dossier en (auth.php, pagination.php, password.php, validation.php).<br>
@@ -61,7 +61,7 @@ Dans app\Rules, on a le fichier Uppercase.php<br>
 <p>
 Sur http://laravelexperience.test/posts/create
 <br><img src="{{ asset('images/laravel_chap16_image4.jpg') }}">
-</p> -->
+</p>
 
 <div>
     <a href="{{ route('chap15') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre15: Les requêtes HTTP</a>

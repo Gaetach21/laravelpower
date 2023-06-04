@@ -39,7 +39,7 @@ Sur la page d'accueil, on clique sur "Mon super titre" :
 </p>
 
 
-<!-- <p>
+ <p>
 On peut trier l’id à la place de content.
 Dans <strong>article.blade.php</strong><br>
 <img src="{{ asset('images/laravel_chap14_image5.jpg') }}">
@@ -48,7 +48,7 @@ Dans <strong>article.blade.php</strong><br>
 <p> 
 Sur la page d'accueil, on clique sur "Mon super titre" : 
 <br><img src="{{ asset('images/laravel_chap14_image6.jpg') }}"><br> 
-</p> -->
+</p> 
 
 <div>
     <a href="{{ route('chap13') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre13: Relation has one Through</a>

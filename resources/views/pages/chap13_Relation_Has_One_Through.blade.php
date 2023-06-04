@@ -32,7 +32,7 @@ Dans Image.php<br>
 <img src="{{ asset('images/laravel_chap13_image2.jpg') }}">
 </p>
 
-<!-- <p>
+ <p>
 Dans Post.php<br>
 <img src="{{ asset('images/laravel_chap13_image3.jpg') }}">
 </p>
@@ -65,7 +65,7 @@ On met en place la relation Has One Through lorsqu'il y a une relation
 one to one entre 3 tables.<br>
 On met en place la relation Has Many Through lorsqu'il y a une relation 
 one to many entre 3 tables.<br>
-</p> -->
+</p> 
 
 
 <div>

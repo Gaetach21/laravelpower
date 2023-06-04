@@ -26,7 +26,7 @@ Automatiquement, on a deux nouveaux dossiers dans App <strong>Events</strong> et
 <p>
 Dans PostController.php<br>
 <img src="{{ asset('images/laravel_chap24_image1.jpg') }}" style="height: 320px;"><br>
-<!-- Dans PostCreatedEvent.php<br>
+ Dans PostCreatedEvent.php<br>
 <img src="{{ asset('images/laravel_chap24_image2.jpg') }}"><br>
 Dans PostCreatedListener.php<br>
 <img src="{{ asset('images/laravel_chap24_image3.jpg') }}"><br>
@@ -34,7 +34,7 @@ Dans App\Providers\EventServiceProviders.php, on va mapper notre event
 avec notre listener.<br>
 <img src="{{ asset('images/laravel_chap24_image4.jpg') }}"><br>
 Sur la page de création des articles <br>
-<img src="{{ asset('images/laravel_chap24_image5.jpg') }}"><br> -->
+<img src="{{ asset('images/laravel_chap24_image5.jpg') }}"><br> 
 </p>
 
 

@@ -34,7 +34,7 @@ On tape la commande :
 <em><strong>php artisan migrate</strong></em><br>
 On vérifie en base de données les tables <strong>tags</strong> et 
 <strong>post_tag</strong>.<br>
-<!-- On va remplir les deux tables : <br>
+ On va remplir les deux tables : <br>
 <img src="{{ asset('images/laravel_chap11_image3.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap11_image4.jpg') }}"><br>
 </p>
@@ -60,7 +60,7 @@ Sur la page d'accueil : <br>
 <img src="{{ asset('images/laravel_chap11_image8.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap11_image9.jpg') }}"><br>
 <img src="{{ asset('images/laravel_chap11_image10.jpg') }}"><br>
-</p> -->
+</p> 
 
 <div>
     <a href="{{ route('chap10') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre10: Relation One to One</a>
