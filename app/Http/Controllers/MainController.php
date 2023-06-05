@@ -201,4 +201,9 @@ $request->validate([
     {
         return view('pages/chap27_HTTP_client');
     }
+
+    public function chap28()
+    {
+        return view('pages/chap28_Les_observers');
+    }
 }

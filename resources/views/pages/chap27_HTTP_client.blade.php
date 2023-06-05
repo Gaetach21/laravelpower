@@ -57,7 +57,7 @@ poste une ressource.
 
 <div>
     <a href="{{ route('chap26') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre26: Les routes(notions avancées)</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre28: Les observers</a>
+    <a href="{{ route('chap28') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre28: Les observers</a>
 </div>
 
 </div>
