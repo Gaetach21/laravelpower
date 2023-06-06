@@ -206,4 +206,10 @@ $request->validate([
     {
         return view('pages/chap28_Les_observers');
     }
+
+    public function chap29()
+    {
+        return view('pages/chap29_Les_jobs');
+    }
+
 }

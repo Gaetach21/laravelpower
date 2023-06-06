@@ -31,7 +31,8 @@
 	<li><a href="{{ route('chap26') }}">Chapitre26: Les routes(notions avancées)</a></li>
 	<li><a href="{{ route('chap27') }}">Chapitre27: HTTP client</a></li>
 	<li><a href="{{ route('chap28') }}">Chapitre28: Les observers</a></li>
-	<li><a href="">Chapitre29: Les jobs</a></li>
+	<li><a href="{{ route('chap29') }}">Chapitre29: Les jobs</a></li>
+	<li><a href="">Chapitre30: Les services providers</a></li>
 </ul>
 
 

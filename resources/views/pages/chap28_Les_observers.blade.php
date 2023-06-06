@@ -45,7 +45,7 @@ en base de données.
 
 <div>
     <a href="{{ route('chap27') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre27: HTTP client</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre29: Les jobs</a>
+    <a href="{{ route('chap29') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre29: Les jobs</a>
 </div>
 
 </div>
