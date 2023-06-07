@@ -212,4 +212,9 @@ $request->validate([
         return view('pages/chap29_Les_jobs');
     }
 
+    public function chap30()
+    {
+        return view('pages/chap30_Les_services_providers');
+    }
+
 }

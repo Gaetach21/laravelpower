@@ -54,7 +54,7 @@ On enregistre un nouvel utilisateur et tout fonctionne aussitôt.<br>
 
 <div>
     <a href="{{ route('chap28') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre28: Les observers</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre30: Les services providers</a>
+    <a href="{{ route('chap30') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre30: Les services providers</a>
 </div>
 
 </div>

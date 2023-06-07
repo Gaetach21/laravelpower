@@ -15,7 +15,6 @@ use App\Http\Controllers\MainController;
 */
 
 
-
 Route::get('', [MainController::class, 'index'])->name('welcome');
 Route::get('/A propos de Laravelpower', [MainController::class, 'about'])->name('about_us');
 Route::get('/Hébergement web', [MainController::class, 'pageContent1'])->name('hebergement');
@@ -58,6 +57,7 @@ Route::get('/chapitre 26', [MainController::class, 'chap26'])->name('chap26');
 Route::get('/chapitre 27', [MainController::class, 'chap27'])->name('chap27');
 Route::get('/chapitre 28', [MainController::class, 'chap28'])->name('chap28');
 Route::get('/chapitre 29', [MainController::class, 'chap29'])->name('chap29');
+Route::get('/chapitre 30', [MainController::class, 'chap30'])->name('chap30');
 
 Route::get('angularTables', function () {
     return view('angularTables');

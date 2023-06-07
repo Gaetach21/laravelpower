@@ -32,7 +32,7 @@
 	<li><a href="{{ route('chap27') }}">Chapitre27: HTTP client</a></li>
 	<li><a href="{{ route('chap28') }}">Chapitre28: Les observers</a></li>
 	<li><a href="{{ route('chap29') }}">Chapitre29: Les jobs</a></li>
-	<li><a href="">Chapitre30: Les services providers</a></li>
+	<li><a href="{{ route('chap30') }}">Chapitre30: Les services providers</a></li>
 </ul>
 
 
