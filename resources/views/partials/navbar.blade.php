@@ -11,7 +11,12 @@
           </li>
           </ul>
           @endauth    
-        <li><a href="#" class="text-white">Logiciels</a></li>
+        <li><a href="{{ route('gestion.logiciels.index') }}" class="text-white">Logiciels</a>@auth
+          <ul class="bg-primary">
+            <li><a href="{{ route('gestion.logiciels.create') }}" class="text-white">Insertion</a></li>
+          </li>
+          </ul>
+          @endauth 
         <li><a href="{{ route('contact.create') }}" class="text-white">Contact</a></li>
         
       </ul>

@@ -11,7 +11,7 @@
  @forelse($post->categories as $category)
 <span class="btn btn-primary btn-large">{{ $category->name }}</span>
 @empty
-<span>Aucune catégorie pour cette recette</span>
+<span>Aucune catégorie pour cet article</span>
 @endforelse
 </div>
 <hr>
