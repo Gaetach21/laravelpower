@@ -78,7 +78,7 @@ Sur http://laravelpower.test/paiements<br>
 
 <div>
     <a href="{{ route('chap29') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre29: Les jobs</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre31: Un système de commentaires</a>
+    <a href="{{ route('chap31') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre31: Un système de commentaires</a>
 </div>
 
 </div>

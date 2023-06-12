@@ -217,4 +217,9 @@ $request->validate([
         return view('pages/chap30_Les_services_providers');
     }
 
+    public function chap31()
+    {
+        return view('pages/chap31_un_systeme_de_commentaires');
+    }
+
 }

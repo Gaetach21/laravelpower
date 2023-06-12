@@ -7,9 +7,6 @@
   .uper {
     margin-top: 40px;
   }
-  table, thead, tbody, td {border: 2px solid grey; 
-      padding: 5px;
-      border-collapse: collapse;}
       .content
 {
 	box-sizing: border-box;
@@ -31,7 +28,7 @@
     </div><br />
   @endif
 
-  <table class="table table-striped">
+  <table class="table table-striped table-bordered">
 
     <thead>
         <tr>

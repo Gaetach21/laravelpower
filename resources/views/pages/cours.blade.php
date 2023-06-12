@@ -33,6 +33,7 @@
 	<li><a href="{{ route('chap28') }}">Chapitre28: Les observers</a></li>
 	<li><a href="{{ route('chap29') }}">Chapitre29: Les jobs</a></li>
 	<li><a href="{{ route('chap30') }}">Chapitre30: Les services providers</a></li>
+	<li><a href="{{ route('chap31') }}">Chapitre31: Un système de commentaires</a></li>
 </ul>
 
 
