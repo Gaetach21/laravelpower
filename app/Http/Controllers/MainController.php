@@ -38,6 +38,11 @@ class MainController extends Controller
     	return view('pages/cours');
     }
 
+    public function pageContent4()
+    {
+    	return view('pages/privacy_policy');
+    }
+
     public function getHistory()
     {
     	return view('pages/historique');

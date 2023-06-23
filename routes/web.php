@@ -21,6 +21,7 @@ Route::get('/A propos de Laravelpower', [MainController::class, 'about'])->name(
 Route::get('/Hébergement web', [MainController::class, 'pageContent1'])->name('hebergement');
 Route::get('/Nom de domaine', [MainController::class, 'pageContent2'])->name('domain');
 Route::get('/Liste de cours', [MainController::class, 'pageContent3'])->name('courses');
+Route::get('/Politique de confidentialité', [MainController::class, 'pageContent4'])->name('privacy');
 Route::get('/Contact', [MainController::class, 'createContact'])->name('contact.create');
 Route::post('/Contact', [MainController::class, 'storeContact'])->name('contact.store');
 Route::get('/Histoire du web', [MainController::class, 'getHistory'])->name('historique');
