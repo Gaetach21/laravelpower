@@ -2,7 +2,7 @@
 @section('title','Laravelpower | Un système de commentaires')
 @section('content')
 <div class="p-2">
-      <h1>Laravel8 Un système de commentaires</h1>
+      <h1>Tutoriel 31 : Un système de commentaires</h1>
 
 
 <h3>Créer un modèle et une migration</h3>
@@ -84,8 +84,8 @@ Sur http://laravelpower.test/gestion/articles/1
 </p>
 
 <div>
-    <a href="{{ route('chap30') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Chapitre30: Les services providers</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Chapitre32: Uploader plusieurs images</a>
+    <a href="{{ route('chap30') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Tutoriel30: Les services providers</a>
+    <a href="{{ route('chap32') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Tutoriel32: Upload de plusieurs images</a>
 </div>
 
 </div>

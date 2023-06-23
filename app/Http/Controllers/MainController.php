@@ -222,4 +222,9 @@ $request->validate([
         return view('pages/chap31_un_systeme_de_commentaires');
     }
 
+    public function chap32()
+    {
+        return view('pages/chap32_Upload_de_plusieurs_images');
+    }
+
 }
