@@ -6,6 +6,7 @@
         <title>@yield('title', 'Laravelpower')</title>
         <link href="{{ asset('css/bootstrap.css') }}" rel ="stylesheet" type="text/css" media="all">
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
     </head>
     <body style="background: url('images/fond_jaune.png');">
         
