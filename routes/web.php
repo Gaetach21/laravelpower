@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SitemapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,10 @@ Route::get('/Uploader_plusieurs_images', [ProductController::class, 'index'])->n
 Route::post('/Uploader_plusieurs_images', [ProductController::class, 'store'])->name('upload.store');
 Route::get('/Uploader_plusieurs_images/{id}', [ProductController::class, 'images'])->name('upload.images');
 
+
+Route::get("sitemap/posts",  [SitemapController::class, 'posts'])->name("sitemap.posts");
+Route::get("sitemap/pages",  [SitemapController::class, 'pages'])->name("sitemap.pages");
+Route::get("sitemap/index",  [SitemapController::class, 'index'])->name("sitemap.index");
 
 /*Route::get('/', function () {
     return view('welcome');
