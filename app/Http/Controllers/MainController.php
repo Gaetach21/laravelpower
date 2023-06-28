@@ -232,4 +232,9 @@ $request->validate([
         return view('pages/chap32_Upload_de_plusieurs_images');
     }
 
+    public function chap33()
+    {
+        return view('pages/chap33_creer_un_sitemap');
+    }
+
 }

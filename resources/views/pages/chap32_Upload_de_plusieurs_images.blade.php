@@ -26,7 +26,7 @@ On migre nos tables dans la base de données.<br>
 <h3>Création des vues</h3>
 <p>
 Dans resources/views/pages, on crée le fichier images.blade.php<br>
-<img src="{{ asset('images/laravel_chap32_image5.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap32_image5.jpg') }}" width="90%"><br>
 Dans routes/web.php<br>
 <img src="{{ asset('images/laravel_chap32_image6.jpg') }}"><br>
 Dans ProductController.php<br>
@@ -36,7 +36,7 @@ Dans navbar.php<br>
 Dans Product.php<br>
 <img src="{{ asset('images/laravel_chap32_image9.jpg') }}"><br>
 Dans resources/views/pages/images.blade.php<br>
-<img src="{{ asset('images/laravel_chap32_image10.jpg') }}"><br>
+<img src="{{ asset('images/laravel_chap32_image10.jpg') }}" width="90%"><br>
 Dans routes/web.php<br>
 <img src="{{ asset('images/laravel_chap32_image11.jpg') }}"><br>
 Dans ProductController.php<br>
@@ -55,7 +55,7 @@ Dans resources/views/pages/image.blade.php<br>
 
 <div>
     <a href="{{ route('chap31') }}" class="bg-primary p-2 text-white" style="text-decoration: none;">Tutoriel31: Un système de commentaires</a>
-    <a href="" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Tutoriel33: Créer une newsletter</a>
+    <a href="{{ route('chap33') }}" class="bg-primary p-2 text-white mx-3" style="text-decoration: none;">Tutoriel33: Créer un plan du site</a>
 </div>
 
 </div>

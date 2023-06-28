@@ -66,6 +66,7 @@ Route::get('/Tutoriel 29', [MainController::class, 'chap29'])->name('chap29');
 Route::get('/Tutoriel 30', [MainController::class, 'chap30'])->name('chap30');
 Route::get('/Tutoriel 31', [MainController::class, 'chap31'])->name('chap31');
 Route::get('/Tutoriel 32', [MainController::class, 'chap32'])->name('chap32');
+Route::get('/Tutoriel 33', [MainController::class, 'chap33'])->name('chap33');
 
 Route::get('angularTables', function () {
     return view('angularTables');

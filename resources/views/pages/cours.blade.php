@@ -35,6 +35,7 @@
 	<li><a href="{{ route('chap30') }}">Tutoriel30: Les services providers</a></li>
 	<li><a href="{{ route('chap31') }}">Tutoriel31: Un système de commentaires</a></li>
 	<li><a href="{{ route('chap32') }}">Tutoriel32: Upload de plusieurs images</a></li>
+	<li><a href="{{ route('chap33') }}">Tutoriel33: Créer un plan du site</a></li>
 </ul>
 
 
