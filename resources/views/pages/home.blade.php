@@ -23,10 +23,10 @@
   <p>Vous pouvez choisir votre manière d'apprendre à coder en utilisant <strong>Laravel</strong>
   à travers mes <a href="{{ route('courses') }}">cours</a>.<br>
   Vous avez également la possibilité de consulter mes <a href="{{ route('gestion.articles.index') }}">articles</a> sur 
-    le framework <strong>Laravel</strong>.<br>
+    le framework <strong>Laravel</strong> et de publier des commentaires.<br>
   Si vous éprouvez des difficultés à assimiler certains <a href="{{ route('courses') }}">cours</a> 
   ou à manipuler certains <a href="#">logiciels</a>, vous pouvez me joindre en cliquant 
-  sur <a href="{{ route('contact.create') }}">contact</a> et en remplissant vos coordonnées.
+  sur <a href="{{ route('contact.create') }}">contact</a> et en remplissant vos coordonnées. Vous pouvez également me contacter sur mes pages <a href="https://api.whatsapp.com/send?phone=237679298838" title="Suivez-nous sur WhatsApp">WhatsApp</a> et <a href="https://m.facebook.com/profile.php?id=100094428570698" title="Suivez-nous sur Facebook">Facebook</a>.
   </p>
 
 @endsection

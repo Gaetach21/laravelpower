@@ -21,13 +21,11 @@
          <div class="col">
       <strong>suivez-nous</strong> 
        <ul>       
-        <li><a href="#" title="Suivez-nous sur WhatsApp">
+        <li><a href="https://api.whatsapp.com/send?phone=237679298838" title="Suivez-nous sur WhatsApp">
         <img src="{{ asset('images/whatsapp.png') }}" alt="whatsapp" />WhatsApp</a></li>
+
         
-        <li><a href="#" title="Suivez-nous sur Twitter">
-        <img src="{{ asset('images/twitter.png') }}" alt="twitter" />Twitter</a></li>
-        
-        <li><a href="#" title="Suivez-nous sur Facebook">
+        <li><a href="https://m.facebook.com/profile.php?id=100094428570698" title="Suivez-nous sur Facebook">
         <img src="{{ asset('images/facebook.png') }}" alt="facebook" />Facebook</a></li>
       </ul>
       </div>
