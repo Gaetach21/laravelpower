@@ -3,7 +3,7 @@
       <strong>Laravelpower</strong> 
        <ul>
         <li><a href="{{ route('sitemap.index') }}">Plan du site</a></li>
-        <li><a href="#">Conditions d'utilisation</a></li>
+        <li><a href="{{ route('terms') }}">Conditions d'utilisation</a></li>
         <li><a href="{{ route('privacy') }}">Politique de confidentialité</a></li>
       </ul>
       </div>
