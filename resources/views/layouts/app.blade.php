@@ -7,6 +7,7 @@
         <link href="{{ asset('css/bootstrap.css') }}" rel ="stylesheet" type="text/css" media="all">
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
+        <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.js') }}"></script>
     </head>
     <body style="background: url('images/fond_jaune.png');">
         

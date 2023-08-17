@@ -7,16 +7,34 @@
     </x-slot>
 
 <div class="container">
-  <style type="text/css">
-    table, th, td, tbody {border: 2px solid black; 
-      padding: 5px;
-      border-collapse: collapse;}
-  </style>
-        <div class="row" style="margin-top: 45px;">
+  <h1>Tableau de bord</h1>
+  <div class="alert alert-success">
+      Vous êtes connectés!
+  </div>
+  <div class="row" style="margin-top: 45px;">
+    <div class="col-md-6">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    {{ Auth::user()->name }}
+  </button>
+  <div class="dropdown-menu">
+    <span>
+      <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+
+                    <x-responsive-nav-link :href="route('logout')"
+                            onclick="event.preventDefault();
+                                        this.closest('form').submit();">
+                        {{ __('Deconnexion') }}
+                    </x-responsive-nav-link>
+      </form>
+    </span>
+  </div>
+</div>
+
+        
           <div class="col-md-6">
-            <h4>Tableau de bord</h4><br>
-            <table class="table table-hover">
-              <thead>
+            <table class="table table-bordered">
+              <thead class="table-primary">
                 <th>Nom</th>
                 <th>Email</th>
                 <th></th>
