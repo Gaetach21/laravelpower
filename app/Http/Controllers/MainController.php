@@ -67,13 +67,14 @@ $request->validate([
 		'message' =>'required|max:250'
 		]);
 		Mail::to('tachgaetan@gmail.com')->send(new MailForAdmin());
-		/*Contact::create([
+		Contact::create([
 		'name' => $request -> name,
 		'email' =>$request -> email,
 		'message' => $request -> message
-		]);*/
-		return 'Merci <strong>'.$request->input('name').'</strong>.'.'Votre message a été transmis à l\'administrateur du site.
-		Vous recevrez une réponse rapidement';	
+		]);
+		return redirect()->back()->with('success','Votre message a été transmis à l\'administrateur du site.
+		Vous recevrez une réponse rapidement');
+			
 
 	}
 
