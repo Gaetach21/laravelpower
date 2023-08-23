@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\NewsletterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,7 @@ use App\Http\Controllers\SitemapController;
 |
 */
 
+Route::post('/Newsletter/store', [NewsletterController::class, 'store'])->name('newsletter.store');
 
 Route::get('', [MainController::class, 'index'])->name('welcome');
 Route::get('/A propos de Laravelpower', [MainController::class, 'about'])->name('about_us');

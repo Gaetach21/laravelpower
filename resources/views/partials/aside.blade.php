@@ -2,21 +2,35 @@
 
 <aside>
 <h1 class="bg-primary">Newsletter</h1>
-<div class="content">
-@if ($errors->any())
-  @foreach ($errors->all() as $error)
- <div class="alert alert-danger">{{ $error }}</div>
-  @endforeach 
+<div class="container mt-2 mb-4">
+ <h1 class="text-primary">Abonnement à notre newsletter</h1>
+  @if (Session::has('failure'))
+      <div class="alert alert-danger">
+        <p>{{ Session::get('failure') }}</p>
+      </div>
   @endif
-<p>S'inscrire à la newsletter.</p>
-<form action="#" method="post">
-@csrf
-<div class="form-group">
-    <input type="email" name="mail" id="mail" 
-placeholder="Entrez votre adresse email" class="form-control" />
+
+  @if (Session::has('success'))
+      <div class="alert alert-success">
+        <p>{{ Session::get('success') }}</p>
+      </div>
+  @endif
+	
+<form action="{{ route('newsletter.store') }}" method="post" >
+	@csrf
+  <label for="mail" class="form-label px-2">Email</label><br> 
+<div class="row">
+    <div class="form-group col-md-8">
+      <input type="text" class="form-control" id="mail" placeholder="Entrez votre adresse email" name="mail">
+      @error('mail') <span class="text-danger">{{ $message }}</span> @enderror
+    </div>
+
+    <div class="form-group col-md-4">
+      <button type="submit" class="btn btn-primary">Souscrire</button>
+    </div>
 </div>
-<p><input type="submit" value="Souscrire" class="bg-primary text-white"/></p>
 </form>
+
 </div>
 </aside>
 
