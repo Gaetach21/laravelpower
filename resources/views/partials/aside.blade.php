@@ -35,14 +35,14 @@
 </aside>
 
 <aside>
-<h1 class="bg-primary">À propos de l'auteur</h1>
-<p id="photo_gaetan"><img src="{{ asset('images/gaetan.jpg') }}" 
-alt="Photo de Gaetan" /></p>
-<p>Je m'appelle Gaetan, je suis ingénieur et passionné 
-des technologies du web.
-Ma passion du web m'a permis de créer plusieurs sites web 
-    dynamiques dont laravelpower fait partie.
-La vocation de ce site est de permettre à toute personne 
-désireuse de maitriser le framework Laravel d'atteindre son objectif.</p>
+  <h1 class="bg-primary">À propos de l'auteur</h1>
+  <p id="photo_gaetan"><img src="{{ asset('images/gaetan.jpg') }}" 
+  alt="Photo de Gaetan" /></p>
+  <p>Je m'appelle Gaetan, je suis ingénieur et passionné 
+  des technologies du web.
+  Ma passion du web m'a permis de créer plusieurs sites web 
+      dynamiques dont laravelpower fait partie.
+  La vocation de ce site est de permettre à toute personne 
+  désireuse de maitriser le framework Laravel d'atteindre son objectif.</p>
 </aside>
 </div>

@@ -30,6 +30,6 @@
       </ul>
       </div>
       
-      <div class="bottom">Built with &hearts; by TACHAGO Gaetan<br />
+      <div class="bottom">Built with <span class="text-primary">&hearts;</span> by TACHAGO Gaetan<br />
       &copy; Copyright Laravelpower {{ date('Y') }}   &middot; Tous droits réservés</div>
     </footer> 

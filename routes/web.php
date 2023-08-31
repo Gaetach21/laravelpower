@@ -24,6 +24,9 @@ Route::get('/A propos de Laravelpower', function () { return view('pages/about')
 Route::get('/Hébergement web', function () { return view('pages/hebergement'); })->name('hebergement');
 Route::get('/Nom de domaine', function () { return view('pages/domain_name'); })->name('domain');
 Route::get('/Liste de tutos', function () { return view('pages/cours'); })->name('courses');
+Route::get('/Liste de tutos_page=2', function () { return view('pages/cours2'); })->name('courses2');
+Route::get('/Liste de tutos_page=3', function () { return view('pages/cours3'); })->name('courses3');
+Route::get('/Liste de tutos_page=4', function () { return view('pages/cours4'); })->name('courses4');
 Route::get('/Politique de confidentialité', function () { return view('pages/privacy_policy'); })->name('privacy');
 Route::get('/Conditions d\'utilisation', function () { return view('pages/terms_of_use'); })->name('terms');
 Route::get('/Histoire du web', function () { return view('pages/historique'); })->name('historique');

@@ -3,7 +3,7 @@
 @section('content')
 <h1>A propos de laravelpower</h1>
    <p>
-  <center><img src="{{ asset('images/laravel.png') }}" alt="le logo de Laravel"  /></center>
+  <img src="{{ asset('images/laravel.png') }}" alt="le logo de Laravel" class="mx-auto d-block" />
   </p>
   <h3>Que représente Laravelpower?</h3>
   <p>
