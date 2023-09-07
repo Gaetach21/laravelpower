@@ -28,7 +28,10 @@
   </article>
   </div>
   <!-- menu de coté --> 
+  @if(!Route::is('contact.create'))
   @include('partials.aside')
+  @else
+  @endif
   </section>
 
   

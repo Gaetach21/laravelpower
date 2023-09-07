@@ -23,11 +23,18 @@
 <form method="POST" action="{{ route('register') }}">
             @csrf
 
+            @if (Session::has('error'))
+                <div class="alert alert-danger">
+                  {{ Session::get('error') }}
+                </div>
+            @endif
+
             <!-- Name -->
             <div class="form-group">
                 <x-label for="name" :value="__('Name')" />
 
                 <x-input id="name" class="form-control" type="text" name="name" :value="old('name')"  autofocus />
+                @error('name') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
 
             <!-- Email Address -->
@@ -35,6 +42,7 @@
                 <x-label for="email" :value="__('Email')" />
 
                 <x-input id="email" class="form-control" type="email" name="email" :value="old('email')"  />
+                @error('email') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
 
             <!-- Password -->
@@ -45,6 +53,7 @@
                                 type="password"
                                 name="password"
                                  autocomplete="new-password" />
+                @error('password') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
 
             <!-- Confirm Password -->
@@ -54,6 +63,7 @@
                 <x-input id="password_confirmation" class="form-control"
                                 type="password"
                                 name="password_confirmation"  />
+                @error('password_confirmation') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
 
 <div class="mt-4">
